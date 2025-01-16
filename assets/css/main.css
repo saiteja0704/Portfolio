@@ -2825,7 +2825,7 @@ button:disabled,
 }
 
 .wrapper.style3 {
-    background-color: #505393;
+    background-color: #444896;
     color: #d3d4e4;
 }
 
@@ -3947,6 +3947,7 @@ body.is-mobile #main>header {
     box-shadow: 0 0 10px rgba(130, 9, 191, 0.3);
 }
 
+
 /* Media Queries for Responsiveness */
 
 
@@ -4026,7 +4027,6 @@ body.is-mobile #main>header {
         right: -20px;
     }
 }
-
 
 
 /* Media Queries for Responsiveness */
