@@ -1,0 +1,320 @@
+<!-- Three -->
+    <section id="three" class="wrapper style3 special ">
+        <div class="inner ">
+            <header class="major ">
+                <h2>Work Experience</h2>
+                <p id="hel">Skills and Domains</p>
+            </header>
+            <ul class="features ">
+                <style>
+                    dt {
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        font-weight: bold;
+                        margin-top: 10px;
+                    }
+
+                    #i,
+                    dd {
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        margin-bottom: 5px;
+                    }
+                </style>
+                  <li class="icon solid fa-university">
+                    <h3>Georgia Southern University</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> Web Content Specialist</p>
+                        <p id="i"><strong>Date:</strong> Nov 2025 - Present</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> Wordpress, UI/ UX Design, React, TypeScript, UI/UX, Figma, Git, Vercel, Asana, Agile
+                        Collaboration</p>
+                    <!-- <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Implemented responsive React and TypeScript components, improving user engagement by
+                            25%.</dd>
+                        <dd>&bull; Translated high-fidelity mockups from Figma into functional web interfaces.</dd>
+                        <dd>&bull; Managed codebase with Git and deployed updates through Vercel for seamless CI/CD.
+                        </dd>
+                        <dd>&bull; Collaborated with cross-functional teams using Asana to track tasks and meet sprint
+                            goals.</dd>
+                    </dl> -->
+                </li>
+                <li class="icon fa-file">
+                    <h3>Bright Mind Enrichment</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> Full Stack Developer & Content Specialist</p>
+                        <p id="i"><strong>Date:</strong> Feb 2025 - Present</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> React, TypeScript, UI/UX, Figma, Git, Vercel, Asana, Agile
+                        Collaboration</p>
+                    <!-- <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Implemented responsive React and TypeScript components, improving user engagement by
+                            25%.</dd>
+                        <dd>&bull; Translated high-fidelity mockups from Figma into functional web interfaces.</dd>
+                        <dd>&bull; Managed codebase with Git and deployed updates through Vercel for seamless CI/CD.
+                        </dd>
+                        <dd>&bull; Collaborated with cross-functional teams using Asana to track tasks and meet sprint
+                            goals.</dd>
+                    </dl> -->
+                </li>
+
+                <li class="icon fa-lightbulb">
+                    <h3>Office of Intercultural Student Life</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position: </strong> Community Assistant</p>
+                        <p id="i"><strong>Date:</strong> July 2024 - Dec 2024</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> WordPress, CMS Management, Figma, Photoshop, SEO, WCAG, Event
+                        Planning, Community Engagement</p>
+                    <!-- <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Developed and maintained WordPress-based event websites to promote student programs.
+                        </dd>
+                        <dd>&bull; Conducted SEO audits and accessibility checks using Lighthouse and WAVE, resolving
+                            20+ WCAG 2.1 issues.</dd>
+                        <dd>&bull; Mentored students on using Figma and Adobe Creative Suite (Photoshop, XD) for project
+                            wireframing and design.</dd>
+                        <dd>&bull; Built an online event registration system to streamline participation tracking and
+                            post-event analysis.</dd>
+                        <dd>&bull; Supported international students through regular resource drop-ins and community
+                            engagement efforts.</dd>
+                        <dd>&bull; Conducted weekly drop-in hours, providing guidance to international students on
+                            navigating campus resources
+                            and adapting to life in the U.S.</dd>
+
+                        <dd>&bull; Organized and promoted programs that foster friendships among students from diverse
+                            backgrounds, enhancing
+                            social connections and support networks</dd>
+                    </dl> -->
+                </li>
+
+                <li class="icon fa-flag">
+                    <h3>Kent Indian Association</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> President</p>
+                        <p id="i"><strong>Date:</strong> Jan 2024 - Dec 2024</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> Leadership, WordPress, SEO, WCAG, Figma, Event Management, Public
+                        Speaking</p>
+                    <!-- <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Designed and deployed accessible WordPress sites to promote university-wide events
+                            with SEO optimizations.</dd>
+                        <dd>&bull; Created mockups in Figma and used user feedback to enhance UI/UX across platforms.
+                        </dd>
+                        <dd>&bull; Led a 25-member team to host 10+ cultural and professional development events
+                            reaching over 600+ students.</dd>
+                        <dd>&bull; Managed digital marketing and branding efforts to grow the association's following by
+                            1.6K+ users.</dd>
+                    </dl> -->
+                </li>
+
+                <li class="icon solid fa-code">
+                    <h3>Dark Horse Digital Solutions</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> Software Developer / Web Content Specialist</p>
+                        <p id="i"><strong>Date:</strong> May 2021 - Dec 2022</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> Spring Boot, AngularJS, REST APIs, Figma, Adobe XD, WordPress,
+                        OpenShift, IBM BPM</p>
+                    <!-- <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Developed Spring Boot microservices and RESTful APIs processing 20,000+ daily
+                            transactions.</dd>
+                        <dd>&bull; Designed UI components using AngularJS, HTML5, and CSS3 to ensure cross-device
+                            responsiveness.</dd>
+                        <dd>&bull; Created client wireframes and prototypes in Figma and Adobe XD for feedback and
+                            iteration.</dd>
+                        <dd>&bull; Collaborated on CMS content updates and WordPress theme customizations for global
+                            clients.</dd>
+                        <dd>&bull; Improved scalability by 30% through modular backend architecture and API
+                            optimization.</dd>
+                    </dl> -->
+                </li>
+
+                <li class="icon fa-paper-plane">
+                    <h3>DXC Technologies</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> Automation Testing Engineer</p>
+                        <p id="i"><strong>Date:</strong> Nov 2020 - May 2021</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> Selenium, TestNG, CI/CD, Automation Frameworks</p>
+                    <!-- <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Built and maintained Selenium-TestNG automation frameworks for scalable web testing.
+                        </dd>
+                        <dd>&bull; Reduced testing time by 60% via parallel execution and integration with Jenkins
+                            pipelines.</dd>
+                        <dd>&bull; Designed test cases for regression and acceptance testing using real-world user
+                            flows.</dd>
+                    </dl> -->
+                </li>
+
+                <li class="icon solid fa-laptop">
+                    <h3>Smart Internz (in collaboration with IBM)</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> AI Developer Intern</p>
+                        <p id="i"><strong>Date:</strong> May 2020 - Aug 2020</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> IBM Watson Assistant, Watson Discovery, Node-Red, Accessibility
+                        Design</p>
+                    <!-- <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Built an AI chatbot using Node.js and IBM Watson Assistant for improved query
+                            handling.</dd>
+                        <dd>&bull; Integrated IBM Watson Discovery for document intelligence, enhancing query accuracy
+                            by 75%.</dd>
+                        <dd>&bull; Applied inclusive design principles to conversational UI to meet accessibility
+                            standards.</dd>
+                    </dl> -->
+                </li>
+
+                <li class="icon solid fa-headphones-alt">
+                    <h3>JP Morgan</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> Software Engineering Intern</p>
+                        <p id="i"><strong>Date:</strong> Jun 2019 - Aug 2019</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> Python, Node.js, HTML, CSS, JavaScript, WCAG, REST APIs</p>
+                    <!-- <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Improved internal tools using HTML, CSS, JavaScript, and REST APIs in a microservices
+                            setup.</dd>
+                        <dd>&bull; Conducted front-end performance tuning and participated in accessibility audits
+                            (WCAG).</dd>
+                        <dd>&bull; Collaborated in cross-functional teams to improve client-side usability and
+                            compliance.</dd>
+                    </dl> -->
+                </li>
+
+                <!-- <li class="icon fa-lightbulb">
+                    <h3>Office of Intercultural Student Life</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> Community Assistant</p>
+                        <p id="i"><strong>Date:</strong> July 2024 - Dec 2024</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> Web Design, Student Engagement, Cultural Sensitivity, Event
+                        Coordination, Mentorship, Community Building, Communication</p>
+                    <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Fostered technical mentorship to student teams, guiding them in developing digital
+                            solutions using Figma, Illustrator, Photoshop, and WordPress.</dd>
+                        <dd>&bull; Utilized Web Technologies to create an event registration system to streamline event
+                            coordination and participation tracking.</dd>
+                        <dd>&bull; Conducted weekly drop-in hours, providing guidance to international students on
+                            navigating campus resources and adapting to life in the U.S.</dd>
+                        <dd>&bull; Organized and promoted programs that foster friendships among students from diverse
+                            backgrounds, enhancing social connections and support networks.</dd>
+                        <dd>&bull; Coordinated events enabling international students to share their cultures and
+                            experiences, while facilitating opportunities for American students to learn about global
+                            perspectives.</dd>
+
+                    </dl>
+                </li>
+                <li class="icon fa-flag">
+                    <h3>Kent Indian Association</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> President</p>
+                        <p id="i"><strong>Date:</strong> Jan 2024 - Dec 2024</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> Leadership, Project Management, Public Speaking, Conflict
+                        Resolution, Adaptability, Strategic Planning</p>
+                    <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Supervised a diverse team of 25 graduates and undergraduates to successfully organize
+                            over 10 university-level events, engaging 600+ international and domestic students,
+                            fostering inclusivity and cultural exchange.</dd>
+                        <dd>&bull; Served as a panelist at the "Coalition Building in a Divided World" conference,
+                            collaboratively hosted by Miami University, Bowling Green State University, and Kent State
+                            University, where I shared strategies for supporting
+                            international students and enhancing their settlement experiences.</dd>
+                        <dd>&bull; Administered event logistics, budget, planning, collaborations with other
+                            organizations, and communications to ensure successful community events.</dd>
+                    </dl>
+                </li>
+
+                <li class="icon solid fa-code">
+                    <h3>Dark Horse Digital Solutions</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> Software Developer</p>
+                        <p id="i"><strong>Date:</strong> May 2021 - Dec 2022</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> Spring Boot, MVC, RESTful APIs, POJOs, DAOs, OpenShift, Apache
+                        Camel, IBM BPM, IBM PaaS</p>
+                    <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Mastered Spring Boot concepts and implemented Model-View-Controller (MVC)
+                            architecture to improve scalability by 30%.</dd>
+                        <dd>&bull; Successfully created and monitored 25+ APIs, demonstrating proficiency in web
+                            development and API testing.</dd>
+                        <dd>&bull; Designed and enforced 10+ POJOs to represent data structures, enhancing code
+                            modularity and maintainability.</dd>
+                        <dd>&bull; Engineered Data Access Objects (DAOs) and used JPA to interface with databases,
+                            ensuring efficient data retrieval and manipulation.</dd>
+                        <dd>&bull; Spearheaded REST APIs using Apache Camel and deployed on OpenShift to improve service
+                            response by 20% for clients in the UAE.</dd>
+                        <dd>&bull; Led the development and deployment of Aadhar seeding and PAN verification systems for
+                            20,000+ users on IBM BPM, ensuring 100% uptime.</dd>
+                        <dd>&bull; Managed 7 policy lifecycle of insurance using IBM PaaS, creating services, assigning
+                            teams, and optimizing performance for multiple databases.</dd>
+                    </dl>
+                </li>
+
+                <li class="icon fa-paper-plane">
+                    <h3>DXC Technologies</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> Automation Testing Engineer</p>
+                        <p id="i"><strong>Date:</strong> Nov 2020 - May 2021</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> Selenium, TestNG</p>
+                    <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Tested and constructed an innovative testing algorithm using Selenium and TestNG,
+                            optimizing test coverage and efficiency.</dd>
+                        <dd>&bull; Automated web page interactions using Selenium to retrieve YouTube video comments
+                            based on user input, showcasing 40+ user test case scenarios.</dd>
+                        <dd>&bull; Integrated TestNG with Selenium WebDriver to perform parallel testing, reducing
+                            overall test execution time by 60%.</dd>
+                        <dd>&bull; Configured and managed end-to-end test automation pipelines, utilizing TestNG for
+                            regression functions and integration tests across various platforms.</dd>
+                        <dd>&bull; Collaborated with the QA team and contributed to CI/CD pipelines to create acceptance
+                            criteria and create test fixtures for a great development workflow.</dd>
+                    </dl>
+                </li>
+
+                <li class="icon solid fa-laptop">
+                    <h3>Smart Internz (in collaboration with IBM)</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> Internship</p>
+                        <p id="i"><strong>Date:</strong> May 2020 - Aug 2020</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> AWS, S3, IBM Watson Assistant, IBM Watson Discovery, Node-Red</p>
+                    <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Developed an AI-powered chatbot using IBM Watson Assistant and Node-Red, improving
+                            customer query handling with over 80 prompts.</dd>
+                        <dd>&bull; Integrated advanced document understanding with IBM Watson Discovery, streamlining
+                            data extraction and improving query resolution accuracy by 75%.</dd>
+                    </dl>
+                </li>
+
+                <li class="icon solid fa-headphones-alt">
+                    <h3>JP Morgan</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p id="i"><strong>Position:</strong> Internship</p>
+                        <p id="i"><strong>Date:</strong> Jun 2019 - Aug 2019</p>
+                    </div>
+                    <p id="i"><strong>Skills:</strong> Python, Node.js, HTML, CSS, JavaScript</p>
+                    <dl>
+                        <dt>Responsibilities:</dt>
+                        <dd>&bull; Gained hands-on experience in optimizing Financial Data Feeds, ensuring accurate and
+                            real-time data processing for improved decision-making.</dd>
+                        <dd>&bull; Enhanced user experience and insights via interactive financial data presentations
+                            for multiple web development and visualization projects.</dd>
+                    </dl>
+                </li> -->
+
+            </ul>
+        </div>
+    </section>
+    
