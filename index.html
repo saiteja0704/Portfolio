@@ -71,1042 +71,2763 @@
             </div>
             <a href="#one" class="more scrolly">About Me</a>
         </section>
-
-        <!-- One -->
-        <section id="one" class="wrapper style1 special" style="background-color:rgba(0, 0, 0, 0.442)">
-            <div class=" major container inner ">
-                <div class=" container img ">
-                    <img src="images/org.jpg " alt="Traditional Pic " />
+        <section id="one" class="wrapper style1 special">
+            <div class="futuristic-container">
+                <!-- Fixed Image Section - LOCKED IN PLACE -->
+                <div class="fixed-image-section">
+                    <div class="image-frame">
+                        <div class="image-glow"></div>
+                        <img src="images/org.jpg" alt="Traditional Picture" />
+                        <div class="image-caption">
+                            <span class="caption-line"></span>
+                            <p>Sai Teja</p>
+                            <span class="caption-line"></span>
+                        </div>
+                    </div>
+                    <div class="image-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">4+</span>
+                            <span class="stat-label">Years Exp</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">20+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">8</span>
+                            <span class="stat-label">Companies</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="container text">
-                    <div class="tab-container">
-                        <div class="tabs">
-                            <div class="tab active-tab" id="tab1">
-                                <h2>Career Objective</h2>
-                                <p
-                                    style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:white">
 
-                                    Fascinated Computer Science professional currently pursuing a Master’s in Computer
-                                    Science, with 3+ years of experience in full-stack web development, API testing, and
-                                    core Java. I specialize in building responsive user interfaces, developing RESTful
-                                    APIs, and integrating AI-powered solutions.
+                <!-- Horizontal Scrollable Content -->
+                <div class="horizontal-scroll-container">
+                    <!-- Plain Chevron Navigation -->
+                    <button class="plain-chevron chevron-left" id="scrollLeft" aria-label="Scroll left">
+                        <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                        <span class="sr-only">Previous</span>
+                    </button>
 
-                                    My tech stack includes Java, Spring Boot, Node.js, React, WordPress, and SharePoint,
-                                    with a strong focus on WCAG-compliant accessibility and SEO optimization. I’m also
-                                    skilled in UI/UX design using Figma, Adobe XD, and Photoshop, crafting intuitive and
-                                    visually engaging experiences.
+                    <button class="plain-chevron chevron-right" id="scrollRight" aria-label="Scroll right">
+                        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                        <span class="sr-only">Next</span>
+                    </button>
 
-                                    I thrive in Agile environments and am driven to deliver scalable, maintainable, and
-                                    user-centric systems through clean code, thoughtful design, and a passion for
-                                    emerging technologies.
-                                    <br>
-                                    Let’s connect and create something powerful, purposeful, and visually striking!🙌
-                                </p>
-                                <!-- <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:white"> 
-                                    Fascinated computer science professional currently pursuing a Master's in Computer Science, with 2 years of experience in web development, API testing, and core Java. Passionate about the limitless possibilities of technology,
-                                    I have hands-on experience in both frontend and backend development, API development, and creating AI-powered solutions. Eager to leverage my skills in full-stack development to deliver innovative, scalable, and efficient
-                                    systems in a dynamic, collaborative environment. Committed to driving growth and tackling new challenges while enhancing system performance.
-                                </p> -->
+                    <!-- Navigation Dots (Now on top of horizontal scroll) -->
+                    <div class="horizontal-nav">
+                        <div class="nav-dot active" data-index="0">
+                            <span class="dot"></span>
+                            <span class="nav-label">Objective</span>
+                        </div>
+                        <div class="nav-dot" data-index="1">
+                            <span class="dot"></span>
+                            <span class="nav-label">Skills</span>
+                        </div>
+                        <div class="nav-dot" data-index="2">
+                            <span class="dot"></span>
+                            <span class="nav-label">Education</span>
+                        </div>
+                    </div>
+
+                    <!-- Horizontal Track -->
+                    <div class="horizontal-track" id="horizontalTrack">
+                        <!-- Career Objective Card -->
+                        <div class="content-card" id="objective-card">
+                            <div class="card-header">
+                                <div class="header-icon">
+                                    <i class="fas fa-bullseye"></i>
+                                </div>
+                                <h2><span class="gradient-text">Career Objective</span></h2>
+                                <div class="header-line"></div>
                             </div>
-                            <div class="tab " id="tab2">
-                                <h2>Skills</h2>
-                                <dl>
-                                    <dt><i class="fas fa-code"></i> Technologies and Languages</dt>
-                                    <dd>Java, Python, C/C++, C#, JavaScript, PHP, HTML, CSS, Node.js</dd>
 
-                                    <dt><i class="fas fa-globe"></i> Frameworks</dt>
-                                    <dd>Spring Boot, Django, RESTful APIs, Camel, AngularJS, Bootstrap</dd>
+                            <div class="card-content">
+                                <div class="objective-grid">
+                                    <div class="objective-card">
+                                        <div class="card-icon">
+                                            <i class="fas fa-code"></i>
+                                        </div>
+                                        <h3>Full Stack Expertise</h3>
+                                        <p>4+ years in full-stack development, API testing, and core Java</p>
+                                    </div>
 
-                                    <dt><i class="fas fa-database"></i> Databases</dt>
-                                    <dd>MySQL, SQL Server, MongoDB, RDBMS</dd>
+                                    <div class="objective-card">
+                                        <div class="card-icon">
+                                            <i class="fas fa-paint-brush"></i>
+                                        </div>
+                                        <h3>UI/UX Design</h3>
+                                        <p>Figma, Adobe XD, Photoshop - crafting intuitive experiences</p>
+                                    </div>
 
-                                    <dt><i class="fas fa-tools"></i> Tools & Platforms</dt>
-                                    <dd>IBM BPM, OpenShift, Docker, Git, Selenium, TestNG, Node-Red</dd>
+                                    <div class="objective-card">
+                                        <div class="card-icon">
+                                            <i class="fas fa-robot"></i>
+                                        </div>
+                                        <h3>AI Integration</h3>
+                                        <p>Building AI-powered solutions with modern frameworks</p>
+                                    </div>
+                                </div>
 
-                                    <dt><i class="fas fa-palette"></i> UI/UX & Design</dt>
-                                    <dd>Figma, Adobe Photoshop, Adobe XD, Premiere Pro, Wireframes, Prototypes, EXT JS
-                                    </dd>
+                                <div class="objective-text">
+                                    <p class="glowing-text">
+                                        <span class="highlight">Fascinated Computer Science professional</span> with a
+                                        Master's degree in Computer
+                                        Science, specializing in building responsive user interfaces, developing RESTful
+                                        APIs, and integrating AI-powered solutions. I thrive in Agile environments,
+                                        delivering scalable, maintainable, and user-centric systems through clean code
+                                        and thoughtful design.
+                                    </p>
+                                </div>
 
-                                    <dt><i class="fas fa-layer-group"></i> CMS Platforms</dt>
-                                    <dd>WordPress, Drupal, SharePoint – customization, publishing, and theme integration
-                                    </dd>
-
-                                    <dt><i class="fas fa-robot"></i> AI/ML Technologies</dt>
-                                    <dd>PyTorch, TensorFlow, Keras, OpenCV, YOLO, CNN, R-CNN, ResNet, EfficientNet</dd>
-
-                                    <dt><i class="fas fa-search"></i> SEO & Accessibility</dt>
-                                    <dd>SEO Optimization, WCAG 2.1 Compliance, Cross-Browser Testing, Lighthouse Audits
-                                    </dd>
-
-                                    <dt><i class="fas fa-clipboard-check"></i> Testing</dt>
-                                    <dd>JavaScript Unit Testing Libraries, Acceptance Tests, Integration Tests</dd>
-
-                                    <dt><i class="fas fa-cogs"></i> Software Development Practices</dt>
-                                    <dd>Microservices Architecture, CI/CD Pipelines, Agile/Scrum Methodologies</dd>
-                                </dl>
-
+                                <div class="connect-message">
+                                    <i class="fas fa-handshake"></i>
+                                    <span>Let's create something powerful together!</span>
+                                    <i class="fas fa-handshake"></i>
+                                </div>
                             </div>
                         </div>
-                        <div class="tab" id="tab3">
-                            <h2>Education</h2>
-                            <dl>
-                                <dt>Masters in Computer Science - 3.8/4</dt>
-                                <dd>
-                                    Kent State University<br> Graduation: December 2024
-                                </dd>
-                                <dt>Bachelors in Computer Science - 8.1/10</dt>
-                                <dd>
-                                    Jawaharlal Nehru Technological University<br> Graduation: June 2021
-                                </dd>
-                            </dl>
+
+                        <!-- Skills Card -->
+                        <div class="content-card" id="skills-card">
+                            <div class="card-header">
+                                <div class="header-icon">
+                                    <i class="fas fa-code-branch"></i>
+                                </div>
+                                <h2><span class="gradient-text">Technical Arsenal</span></h2>
+                                <div class="header-line"></div>
+                            </div>
+
+                            <div class="card-content">
+                                <div class="skills-futuristic">
+                                    <!-- Languages -->
+                                    <div class="skill-category">
+                                        <div class="category-title">
+                                            <i class="fas fa-code category-icon"></i>
+                                            <h3>Languages</h3>
+                                        </div>
+                                        <div class="skill-grid">
+                                            <div class="skill-card"><i
+                                                    class="fab fa-java java-icon"></i><span>Java</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fab fa-python python-icon"></i><span>Python</span></div>
+                                            <div class="skill-card"><i class="fas fa-code c-icon"></i><span>C/C++</span>
+                                            </div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-code csharp-icon"></i><span>C#</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fab fa-js js-icon"></i><span>JavaScript</span></div>
+                                            <div class="skill-card"><i class="fab fa-php php-icon"></i><span>PHP</span>
+                                            </div>
+                                            <div class="skill-card"><i
+                                                    class="fab fa-html5 html-icon"></i><span>HTML5</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fab fa-css3-alt css-icon"></i><span>CSS3</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fab fa-node-js node-icon"></i><span>Node.js</span></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Frameworks -->
+                                    <div class="skill-category">
+                                        <div class="category-title">
+                                            <i class="fas fa-globe category-icon"></i>
+                                            <h3>Frameworks</h3>
+                                        </div>
+                                        <div class="skill-grid">
+                                            <div class="skill-card"><i class="fas fa-leaf spring-icon"></i><span>Spring
+                                                    Boot</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fab fa-python django-icon"></i><span>Django</span></div>
+                                            <div class="skill-card"><i class="fas fa-plug rest-icon"></i><span>RESTful
+                                                    APIs</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-camel camel-icon"></i><span>Camel</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fab fa-angular angular-icon"></i><span>AngularJS</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fab fa-bootstrap bootstrap-icon"></i><span>Bootstrap</span>
+                                            </div>
+                                            <div class="skill-card"><i
+                                                    class="fab fa-react react-icon"></i><span>React</span></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Databases -->
+                                    <div class="skill-category">
+                                        <div class="category-title">
+                                            <i class="fas fa-database category-icon"></i>
+                                            <h3>Databases</h3>
+                                        </div>
+                                        <div class="skill-grid">
+                                            <div class="skill-card"><i
+                                                    class="fas fa-database mysql-icon"></i><span>MySQL</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-database sqlserver-icon"></i><span>SQL Server</span>
+                                            </div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-leaf mongodb-icon"></i><span>MongoDB</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-table rdbms-icon"></i><span>RDBMS</span></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Tools & Platforms -->
+                                    <div class="skill-category">
+                                        <div class="category-title">
+                                            <i class="fas fa-tools category-icon"></i>
+                                            <h3>Tools & Platforms</h3>
+                                        </div>
+                                        <div class="skill-grid">
+                                            <div class="skill-card"><i class="fab fa-ibm ibm-icon"></i><span>IBM
+                                                    BPM</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-cloud openshift-icon"></i><span>OpenShift</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fab fa-docker docker-icon"></i><span>Docker</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fab fa-git-alt git-icon"></i><span>Git</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-robot selenium-icon"></i><span>Selenium</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-flask testng-icon"></i><span>TestNG</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-project-diagram nodered-icon"></i><span>Node-Red</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- UI/UX & Design -->
+                                    <div class="skill-category">
+                                        <div class="category-title">
+                                            <i class="fas fa-palette category-icon"></i>
+                                            <h3>UI/UX & Design</h3>
+                                        </div>
+                                        <div class="skill-grid">
+                                            <div class="skill-card"><i
+                                                    class="fab fa-figma figma-icon"></i><span>Figma</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-camera photoshop-icon"></i><span>Photoshop</span>
+                                            </div>
+                                            <div class="skill-card"><i class="fas fa-pen-nib xd-icon"></i><span>Adobe
+                                                    XD</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-video premiere-icon"></i><span>Premiere Pro</span>
+                                            </div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-draw-polygon wireframe-icon"></i><span>Wireframes</span>
+                                            </div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-cubes prototype-icon"></i><span>Prototypes</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- AI/ML -->
+                                    <div class="skill-category">
+                                        <div class="category-title">
+                                            <i class="fas fa-robot category-icon"></i>
+                                            <h3>AI/ML</h3>
+                                        </div>
+                                        <div class="skill-grid">
+                                            <div class="skill-card"><i
+                                                    class="fas fa-brain pytorch-icon"></i><span>PyTorch</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-brain tensorflow-icon"></i><span>TensorFlow</span>
+                                            </div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-brain keras-icon"></i><span>Keras</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-eye opencv-icon"></i><span>OpenCV</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-search yolo-icon"></i><span>YOLO</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-network-wired cnn-icon"></i><span>CNN</span></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Development Practices -->
+                                    <div class="skill-category full-width">
+                                        <div class="category-title">
+                                            <i class="fas fa-cogs category-icon"></i>
+                                            <h3>Development Practices</h3>
+                                        </div>
+                                        <div class="skill-grid">
+                                            <div class="skill-card"><i
+                                                    class="fas fa-microchip microservices-icon"></i><span>Microservices</span>
+                                            </div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-code-branch cicd-icon"></i><span>CI/CD</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-sync-alt agile-icon"></i><span>Agile/Scrum</span>
+                                            </div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-check-circle unittest-icon"></i><span>Unit
+                                                    Testing</span></div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-universal-access wcag-icon"></i><span>WCAG</span>
+                                            </div>
+                                            <div class="skill-card"><i
+                                                    class="fas fa-search seo-icon"></i><span>SEO</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="arrow-container">
-                            <i class="fas fa-angle-double-left arrow-icon left-arrow"></i>
-                            <i class="fas fa-angle-double-right arrow-icon right-arrow"></i>
+
+                        <!-- Education Card -->
+                        <div class="content-card" id="education-card">
+                            <div class="card-header">
+                                <div class="header-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <h2><span class="gradient-text">Education</span></h2>
+                                <div class="header-line"></div>
+                            </div>
+
+                            <div class="card-content">
+                                <div class="education-timeline">
+                                    <div class="timeline-item">
+                                        <div class="timeline-dot"></div>
+                                        <div class="timeline-line"></div>
+                                        <div class="timeline-card">
+                                            <div class="card-front">
+                                                <i class="fas fa-graduation-cap"></i>
+                                                <h3>Masters in Computer Science</h3>
+                                                <p class="gpa">GPA: 3.8/4.0</p>
+                                            </div>
+                                            <div class="card-back">
+                                                <p>Kent State University</p>
+                                                <p class="date">Graduation: Dec 2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-dot"></div>
+                                        <div class="timeline-card">
+                                            <div class="card-front">
+                                                <i class="fas fa-university"></i>
+                                                <h3>Bachelors in Computer Science</h3>
+                                                <p class="gpa">GPA: 8.1/10</p>
+                                            </div>
+                                            <div class="card-back">
+                                                <p>JNTU University</p>
+                                                <p class="date">Graduation: June 2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+
+                    <!-- Scroll Indicators -->
+                    <div class="scroll-indicators">
+                        <span class="indicator active" data-index="0"></span>
+                        <span class="indicator" data-index="1"></span>
+                        <span class="indicator" data-index="2"></span>
                     </div>
                 </div>
             </div>
-    </div>
-    </section>
-    <!-- Three - Work Experience with Horizontal Scroll -->
-    <!-- Three - Work Experience with Horizontal Scroll -->
-    <section id="three" class="wrapper style3 special">
-        <div class="inner">
-            <header class="major">
-                <h2>Work Experience</h2>
-            </header>
+        </section>
 
-            <!-- Horizontal Scroll Container -->
-            <div class="exp-scroll-container">
-                <div class="exp-track" id="expTrack">
-
-                    <!-- Georgia Southern University -->
-                    <div class="exp-card">
-                        <div class="exp-icon">
-                            <i class="fas fa-university"></i>
-                        </div>
-                        <div class="exp-content">
-                            <div class="exp-header">
-                                <h3>Georgia Southern University</h3>
-                            </div>
-                            <div class="exp-meta">
-                                <span class="exp-position">Web Content Specialist</span>
-                                <span class="exp-date"><i class="far fa-calendar-alt"></i> Nov 2025 - Present</span>
-                            </div>
-                            <div class="exp-skills">
-                                <span class="skill-item"><i class="fab fa-wordpress"></i> WordPress</span>
-                                <span class="skill-item"><i class="fas fa-paint-brush"></i> UI/UX</span>
-                                <span class="skill-item"><i class="fab fa-react"></i> React</span>
-                                <span class="skill-item"><i class="fab fa-js"></i> TypeScript</span>
-                                <span class="skill-item"><i class="fab fa-figma"></i> Figma</span>
-                                <span class="skill-item"><i class="fab fa-git-alt"></i> Git</span>
-                                <span class="skill-item"><i class="fas fa-cloud-upload-alt"></i> Vercel</span>
-                                <span class="skill-item"><i class="fas fa-tasks"></i> Asana</span>
-                                <span class="skill-item"><i class="fas fa-sync-alt"></i> Agile</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Bright Mind Enrichment -->
-                    <div class="exp-card">
-                        <div class="exp-icon">
-                            <i class="fas fa-brain"></i>
-                        </div>
-                        <div class="exp-content">
-                            <div class="exp-header">
-                                <h3>Bright Mind Enrichment</h3>
-                            </div>
-                            <div class="exp-meta">
-                                <span class="exp-position">Full Stack Developer & Content Specialist</span>
-                                <span class="exp-date"><i class="far fa-calendar-alt"></i> Feb 2025 - Present</span>
-                            </div>
-                            <div class="exp-skills">
-                                <span class="skill-item"><i class="fab fa-react"></i> React</span>
-                                <span class="skill-item"><i class="fab fa-js"></i> TypeScript</span>
-                                <span class="skill-item"><i class="fas fa-paint-brush"></i> UI/UX</span>
-                                <span class="skill-item"><i class="fab fa-figma"></i> Figma</span>
-                                <span class="skill-item"><i class="fab fa-git-alt"></i> Git</span>
-                                <span class="skill-item"><i class="fas fa-cloud-upload-alt"></i> Vercel</span>
-                                <span class="skill-item"><i class="fas fa-tasks"></i> Asana</span>
-                                <span class="skill-item"><i class="fas fa-sync-alt"></i> Agile</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Office of Intercultural Student Life -->
-                    <div class="exp-card">
-                        <div class="exp-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <div class="exp-content">
-                            <div class="exp-header">
-                                <h3>Office of Intercultural Student Life</h3>
-                            </div>
-                            <div class="exp-meta">
-                                <span class="exp-position">Community Assistant</span>
-                                <span class="exp-date"><i class="far fa-calendar-alt"></i> Jul 2024 - Dec 2024</span>
-                            </div>
-                            <div class="exp-skills">
-                                <span class="skill-item"><i class="fab fa-wordpress"></i> WordPress</span>
-                                <span class="skill-item"><i class="fas fa-database"></i> CMS Management</span>
-                                <span class="skill-item"><i class="fab fa-figma"></i> Figma</span>
-                                <span class="skill-item"><i class="fas fa-camera"></i> Photoshop</span>
-                                <span class="skill-item"><i class="fas fa-search"></i> SEO</span>
-                                <span class="skill-item"><i class="fas fa-universal-access"></i> WCAG</span>
-                                <span class="skill-item"><i class="fas fa-calendar-alt"></i> Event Planning</span>
-                                <span class="skill-item"><i class="fas fa-hand-holding-heart"></i> Community
-                                    Engagement</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Kent Indian Association -->
-                    <div class="exp-card">
-                        <div class="exp-icon">
-                            <i class="fas fa-crown"></i>
-                        </div>
-                        <div class="exp-content">
-                            <div class="exp-header">
-                                <h3>Kent Indian Association</h3>
-                            </div>
-                            <div class="exp-meta">
-                                <span class="exp-position">President</span>
-                                <span class="exp-date"><i class="far fa-calendar-alt"></i> Jan 2024 - Dec 2024</span>
-                            </div>
-                            <div class="exp-skills">
-                                <span class="skill-item"><i class="fas fa-chess-queen"></i> Leadership</span>
-                                <span class="skill-item"><i class="fab fa-wordpress"></i> WordPress</span>
-                                <span class="skill-item"><i class="fas fa-search"></i> SEO</span>
-                                <span class="skill-item"><i class="fas fa-universal-access"></i> WCAG</span>
-                                <span class="skill-item"><i class="fab fa-figma"></i> Figma</span>
-                                <span class="skill-item"><i class="fas fa-calendar-check"></i> Event Management</span>
-                                <span class="skill-item"><i class="fas fa-microphone"></i> Public Speaking</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Dark Horse Digital Solutions -->
-                    <div class="exp-card">
-                        <div class="exp-icon">
-                            <i class="fas fa-horse"></i>
-                        </div>
-                        <div class="exp-content">
-                            <div class="exp-header">
-                                <h3>Dark Horse Digital Solutions</h3>
-                            </div>
-                            <div class="exp-meta">
-                                <span class="exp-position">Software Developer / Web Content Specialist</span>
-                                <span class="exp-date"><i class="far fa-calendar-alt"></i> May 2021 - Dec 2022</span>
-                            </div>
-                            <div class="exp-skills">
-                                <span class="skill-item"><i class="fas fa-leaf"></i> Spring Boot</span>
-                                <span class="skill-item"><i class="fab fa-angular"></i> AngularJS</span>
-                                <span class="skill-item"><i class="fas fa-plug"></i> REST APIs</span>
-                                <span class="skill-item"><i class="fab fa-figma"></i> Figma</span>
-                                <span class="skill-item"><i class="fas fa-pen-nib"></i> Adobe XD</span>
-                                <span class="skill-item"><i class="fab fa-wordpress"></i> WordPress</span>
-                                <span class="skill-item"><i class="fas fa-cloud"></i> OpenShift</span>
-                                <span class="skill-item"><i class="fas fa-cog"></i> IBM BPM</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- DXC Technologies -->
-                    <div class="exp-card">
-                        <div class="exp-icon">
-                            <i class="fas fa-flask"></i>
-                        </div>
-                        <div class="exp-content">
-                            <div class="exp-header">
-                                <h3>DXC Technologies</h3>
-                            </div>
-                            <div class="exp-meta">
-                                <span class="exp-position">Automation Testing Engineer</span>
-                                <span class="exp-date"><i class="far fa-calendar-alt"></i> Nov 2020 - May 2021</span>
-                            </div>
-                            <div class="exp-skills">
-                                <span class="skill-item"><i class="fas fa-robot"></i> Selenium</span>
-                                <span class="skill-item"><i class="fas fa-flask"></i> TestNG</span>
-                                <span class="skill-item"><i class="fas fa-code-branch"></i> CI/CD</span>
-                                <span class="skill-item"><i class="fas fa-cogs"></i> Automation Frameworks</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Smart Internz (IBM) -->
-                    <div class="exp-card">
-                        <div class="exp-icon">
-                            <i class="fas fa-microchip"></i>
-                        </div>
-                        <div class="exp-content">
-                            <div class="exp-header">
-                                <h3>Smart Internz</h3>
-                                <span class="exp-collab">in collaboration with IBM</span>
-                            </div>
-                            <div class="exp-meta">
-                                <span class="exp-position">AI Developer Intern</span>
-                                <span class="exp-date"><i class="far fa-calendar-alt"></i> May 2020 - Aug 2020</span>
-                            </div>
-                            <div class="exp-skills">
-                                <span class="skill-item"><i class="fas fa-comment-dots"></i> Watson Assistant</span>
-                                <span class="skill-item"><i class="fas fa-search"></i> Watson Discovery</span>
-                                <span class="skill-item"><i class="fas fa-project-diagram"></i> Node-Red</span>
-                                <span class="skill-item"><i class="fas fa-universal-access"></i> Accessibility
-                                    Design</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- JP Morgan -->
-                    <div class="exp-card">
-                        <div class="exp-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <div class="exp-content">
-                            <div class="exp-header">
-                                <h3>JP Morgan</h3>
-                            </div>
-                            <div class="exp-meta">
-                                <span class="exp-position">Software Engineering Intern</span>
-                                <span class="exp-date"><i class="far fa-calendar-alt"></i> Jun 2019 - Aug 2019</span>
-                            </div>
-                            <div class="exp-skills">
-                                <span class="skill-item"><i class="fab fa-python"></i> Python</span>
-                                <span class="skill-item"><i class="fab fa-node-js"></i> Node.js</span>
-                                <span class="skill-item"><i class="fab fa-html5"></i> HTML5</span>
-                                <span class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</span>
-                                <span class="skill-item"><i class="fab fa-js"></i> JavaScript</span>
-                                <span class="skill-item"><i class="fas fa-universal-access"></i> WCAG</span>
-                                <span class="skill-item"><i class="fas fa-plug"></i> REST APIs</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Minimalist Arrow Controls -->
-                <button class="exp-arrow exp-arrow-left" id="expPrevBtn" aria-label="Previous experience">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                </button>
-
-                <button class="exp-arrow exp-arrow-right" id="expNextBtn" aria-label="Next experience">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                </button>
-
-                <!-- Minimal Indicators -->
-                <div class="exp-dots">
-                    <span class="exp-dot active"></span>
-                    <span class="exp-dot"></span>
-                    <span class="exp-dot"></span>
-                    <span class="exp-dot"></span>
-                    <span class="exp-dot"></span>
-                    <span class="exp-dot"></span>
-                    <span class="exp-dot"></span>
-                    <span class="exp-dot"></span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <style>
-        /* ===== EXPERIENCE SECTION - COMPLETE REDESIGN ===== */
-        #three {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            position: relative;
-            overflow: hidden;
-            padding: 60px 0;
-        }
-
-        /* Container */
-        .exp-scroll-container {
-            position: relative;
-            width: 100%;
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 20px 70px;
-        }
-
-        /* Horizontal Track */
-        .exp-track {
-            display: flex;
-            gap: 30px;
-            overflow-x: auto;
-            scroll-behavior: smooth;
-            padding: 20px 10px 40px;
-            scrollbar-width: none;
-            -ms-overflow-style: none;
-        }
-
-        .exp-track::-webkit-scrollbar {
-            display: none;
-        }
-
-        /* Experience Cards */
-        .exp-card {
-            flex: 0 0 400px;
-            background: rgba(22, 33, 62, 0.8);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(73, 166, 233, 0.15);
-            border-radius: 24px;
-            padding: 28px;
-            display: flex;
-            gap: 18px;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            position: relative;
-            overflow: visible;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        }
-
-        .exp-card::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 4px;
-            height: 0;
-            background: linear-gradient(180deg, #49a6e9, #8b5cf6);
-            transition: height 0.3s ease;
-            border-radius: 4px 0 0 4px;
-        }
-
-        .exp-card:hover {
-            background: rgba(32, 45, 74, 0.9);
-            border-color: rgba(73, 166, 233, 0.4);
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(73, 166, 233, 0.15);
-        }
-
-        .exp-card:hover::after {
-            height: 100%;
-        }
-
-        /* Icon */
-        .exp-icon {
-            flex-shrink: 0;
-            width: 52px;
-            height: 52px;
-            background: rgba(73, 166, 233, 0.12);
-            border-radius: 18px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #49a6e9;
-            font-size: 1.6rem;
-            transition: all 0.3s ease;
-        }
-
-        .exp-card:hover .exp-icon {
-            background: #49a6e9;
-            color: white;
-            transform: scale(1.1);
-            box-shadow: 0 10px 20px rgba(73, 166, 233, 0.3);
-        }
-
-        /* Content */
-        .exp-content {
-            flex: 1;
-            min-width: 0;
-        }
-
-        .exp-header {
-            margin-bottom: 12px;
-        }
-
-        .exp-header h3 {
-            color: white;
-            font-size: 1.25rem;
-            font-weight: 700;
-            margin: 0 0 4px 0;
-            line-height: 1.2;
-            letter-spacing: -0.01em;
-        }
-
-        .exp-collab {
-            display: inline-block;
-            color: rgba(255, 255, 255, 0.6);
-            font-size: 0.7rem;
-            background: rgba(73, 166, 233, 0.1);
-            padding: 3px 10px;
-            border-radius: 20px;
-            margin-top: 4px;
-        }
-
-        .exp-meta {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            margin-bottom: 18px;
-            padding-bottom: 16px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .exp-position {
-            color: #49a6e9;
-            font-size: 0.9rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .exp-date {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 0.8rem;
-            font-weight: 500;
-            background: rgba(0, 0, 0, 0.25);
-            padding: 5px 12px;
-            border-radius: 30px;
-            width: fit-content;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-        }
-
-        .exp-date i {
-            color: #49a6e9;
-            font-size: 0.75rem;
-        }
-
-        /* Interactive Skill Boxes */
-        .exp-skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 5px;
-        }
-
-        .skill-item {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            padding: 6px 14px;
-            background: rgba(73, 166, 233, 0.08);
-            border: 1px solid rgba(73, 166, 233, 0.2);
-            border-radius: 30px;
-            color: rgba(255, 255, 255, 0.95);
-            font-size: 0.75rem;
-            font-weight: 500;
-            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-            cursor: pointer;
-            white-space: nowrap;
-        }
-
-        .skill-item i {
-            font-size: 0.8rem;
-            color: #49a6e9;
-            transition: all 0.2s ease;
-        }
-
-        .skill-item:hover {
-            background: #49a6e9;
-            border-color: #49a6e9;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 14px rgba(73, 166, 233, 0.25);
-            color: white;
-        }
-
-        .skill-item:hover i {
-            color: white;
-        }
-
-        /* Minimalist Arrows */
-        .exp-arrow {
-            position: absolute;
-            top: 45%;
-            transform: translateY(-50%);
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            background: rgba(22, 33, 62, 0.7);
-            border: 1px solid rgba(73, 166, 233, 0.3);
-            color: rgba(255, 255, 255, 0.7);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            z-index: 20;
-            padding: 0;
-            backdrop-filter: blur(4px);
-        }
-
-        .exp-arrow:hover {
-            background: rgba(73, 166, 233, 0.15);
-            border-color: #49a6e9;
-            color: #49a6e9;
-            transform: translateY(-50%) scale(1.1);
-        }
-
-        .exp-arrow-left {
-            left: 10px;
-        }
-
-        .exp-arrow-right {
-            right: 10px;
-        }
-
-        .exp-arrow svg {
-            width: 22px;
-            height: 22px;
-        }
-
-        /* Minimal Dots */
-        .exp-dots {
-            display: flex;
-            justify-content: center;
-            gap: 8px;
-            margin-top: 25px;
-        }
-
-        .exp-dot {
-            width: 6px;
-            height: 6px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.2);
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
-
-        .exp-dot.active {
-            width: 28px;
-            border-radius: 4px;
-            background: #49a6e9;
-        }
-
-        .exp-dot:hover {
-            background: #49a6e9;
-        }
-
-        /* Mobile Responsive */
-        @media (max-width: 992px) {
-            .exp-scroll-container {
-                padding: 20px 50px;
+        <style>
+            /* ===== FUTURISTIC MINIMAL DESIGN WITH HORIZONTAL SCROLL ===== */
+            #one {
+                background: linear-gradient(135deg, #0a0a0f 0%, #0f0f1a 100%);
+                position: relative;
+                overflow: hidden;
+                padding: 60px 0;
+                min-height: 100vh;
             }
 
-            .exp-card {
-                flex: 0 0 380px;
+            /* Animated background grid */
+            #one::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-image:
+                    linear-gradient(rgba(73, 166, 233, 0.05) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(73, 166, 233, 0.05) 1px, transparent 1px);
+                background-size: 50px 50px;
+                pointer-events: none;
+                animation: gridMove 20s linear infinite;
             }
-        }
 
-        @media (max-width: 768px) {
-            .exp-scroll-container {
-                padding: 20px 40px;
+            @keyframes gridMove {
+                0% {
+                    transform: translate(0, 0);
+                }
+
+                100% {
+                    transform: translate(50px, 50px);
+                }
             }
 
-            .exp-card {
-                flex: 0 0 340px;
-                padding: 22px;
-                gap: 14px;
+            /* Main Container */
+            .futuristic-container {
+                display: flex;
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 40px;
+                gap: 60px;
+                position: relative;
+                z-index: 2;
             }
 
-            .exp-icon {
-                width: 44px;
-                height: 44px;
+            /* ===== FIXED IMAGE SECTION - LOCKED IN PLACE ===== */
+            .fixed-image-section {
+                flex: 0 0 350px;
+                position: sticky;
+                top: 100px;
+                height: fit-content;
+                animation: floatIn 1s ease-out;
+                z-index: 10;
+                transform: translateZ(0);
+                will-change: transform;
+            }
+
+            @keyframes floatIn {
+                0% {
+                    opacity: 0;
+                    transform: translateX(-30px);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+
+            .image-frame {
+                position: relative;
+                border-radius: 30px;
+                overflow: hidden;
+                aspect-ratio: 3/4;
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            }
+
+            .image-glow {
+                position: absolute;
+                top: -50%;
+                left: -50%;
+                right: -50%;
+                bottom: -50%;
+                background: radial-gradient(circle at 30% 30%, rgba(73, 166, 233, 0.3), transparent 70%);
+                animation: rotate 10s linear infinite;
+                z-index: 1;
+            }
+
+            @keyframes rotate {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+
+            .image-frame img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: relative;
+                z-index: 2;
+                border: 2px solid rgba(73, 166, 233, 0.3);
+                transition: all 0.5s ease;
+            }
+
+            .image-frame:hover img {
+                transform: scale(1.05);
+                border-color: #49a6e9;
+                box-shadow: 0 0 50px rgba(73, 166, 233, 0.3);
+            }
+
+            .image-caption {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+                padding: 30px 20px 20px;
+                z-index: 3;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .caption-line {
+                flex: 1;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, #49a6e9, transparent);
+            }
+
+            .image-caption p {
+                color: white;
+                font-size: 1.2rem;
+                font-weight: 600;
+                letter-spacing: 2px;
+                margin: 0;
+            }
+
+            .image-stats {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 30px;
+                padding: 20px;
+                background: rgba(255, 255, 255, 0.03);
+                border: 1px solid rgba(73, 166, 233, 0.2);
+                border-radius: 20px;
+                backdrop-filter: blur(10px);
+            }
+
+            .stat-item {
+                text-align: center;
+                position: relative;
+            }
+
+            .stat-item:not(:last-child)::after {
+                content: '';
+                position: absolute;
+                right: -20px;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 1px;
+                height: 30px;
+                background: linear-gradient(to bottom, transparent, #49a6e9, transparent);
+            }
+
+            .stat-value {
+                display: block;
+                font-size: 2rem;
+                font-weight: 700;
+                color: #49a6e9;
+                text-shadow: 0 0 20px rgba(73, 166, 233, 0.5);
+            }
+
+            .stat-label {
+                font-size: 0.8rem;
+                color: rgba(255, 255, 255, 0.6);
+                letter-spacing: 1px;
+            }
+
+            /* ===== HORIZONTAL SCROLL CONTAINER ===== */
+            .horizontal-scroll-container {
+                flex: 1;
+                min-width: 0;
+                position: relative;
+                padding: 0 30px;
+            }
+
+            /* Plain Chevron Navigation - NO BACKGROUND */
+            .plain-chevron {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                background: transparent;
+                border: none;
+                color: rgba(255, 255, 255, 0.5);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                z-index: 20;
+                padding: 10px;
+                font-size: 2rem;
+            }
+
+            .plain-chevron:hover {
+                color: #49a6e9;
+                transform: translateY(-50%) scale(1.2);
+                text-shadow: 0 0 20px rgba(73, 166, 233, 0.5);
+            }
+
+            .plain-chevron:focus {
+                outline: none;
+            }
+
+            .chevron-left {
+                left: -15px;
+            }
+
+            .chevron-right {
+                right: -15px;
+            }
+
+            /* Horizontal Navigation Dots */
+            .horizontal-nav {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                margin-bottom: 30px;
+                padding: 15px;
+                background: rgba(255, 255, 255, 0.02);
+                border: 1px solid rgba(73, 166, 233, 0.2);
+                border-radius: 60px;
+                backdrop-filter: blur(10px);
+            }
+
+            .nav-dot {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                cursor: pointer;
+                padding: 8px 20px;
+                border-radius: 30px;
+                transition: all 0.3s ease;
+            }
+
+            .nav-dot:hover {
+                background: rgba(73, 166, 233, 0.1);
+            }
+
+            .nav-dot.active {
+                background: rgba(73, 166, 233, 0.15);
+                border: 1px solid rgba(73, 166, 233, 0.3);
+            }
+
+            .nav-dot .dot {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: rgba(255, 255, 255, 0.3);
+                transition: all 0.3s ease;
+            }
+
+            .nav-dot.active .dot {
+                background: #49a6e9;
+                box-shadow: 0 0 20px #49a6e9;
+                transform: scale(1.2);
+            }
+
+            .nav-label {
+                color: rgba(255, 255, 255, 0.7);
+                font-size: 0.9rem;
+                font-weight: 500;
+                transition: all 0.3s ease;
+            }
+
+            .nav-dot.active .nav-label {
+                color: #49a6e9;
+            }
+
+            /* Horizontal Track */
+            .horizontal-track {
+                display: flex;
+                gap: 30px;
+                overflow-x: auto;
+                scroll-behavior: smooth;
+                padding: 20px 5px 40px;
+                scrollbar-width: thin;
+                scrollbar-color: #49a6e9 rgba(73, 166, 233, 0.1);
+                -ms-overflow-style: auto;
+                scroll-snap-type: x mandatory;
+            }
+
+            .horizontal-track::-webkit-scrollbar {
+                height: 6px;
+                display: block;
+            }
+
+            .horizontal-track::-webkit-scrollbar-track {
+                background: rgba(73, 166, 233, 0.1);
+                border-radius: 10px;
+                margin: 0 20px;
+            }
+
+            .horizontal-track::-webkit-scrollbar-thumb {
+                background: #49a6e9;
+                border-radius: 10px;
+                transition: all 0.3s ease;
+            }
+
+            .horizontal-track::-webkit-scrollbar-thumb:hover {
+                background: #6b5cf6;
+            }
+
+            /* Content Cards */
+            .content-card {
+                flex: 0 0 750px;
+                background: rgba(22, 33, 62, 0.8);
+                backdrop-filter: blur(10px);
+                border: 1px solid rgba(73, 166, 233, 0.15);
+                border-radius: 30px;
+                padding: 35px;
+                scroll-snap-align: start;
+                transition: all 0.3s ease;
+                position: relative;
+                overflow: hidden;
+                animation: slideIn 0.8s ease-out;
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            }
+
+            .content-card::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 2px;
+                background: linear-gradient(90deg, transparent, #49a6e9, transparent);
+                animation: borderPulse 3s infinite;
+            }
+
+            @keyframes borderPulse {
+                0% {
+                    opacity: 0.3;
+                }
+
+                50% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 0.3;
+                }
+            }
+
+            .content-card:hover {
+                transform: translateY(-5px);
+                border-color: #49a6e9;
+                box-shadow: 0 30px 60px rgba(73, 166, 233, 0.2);
+            }
+
+            @keyframes slideIn {
+                from {
+                    opacity: 0;
+                    transform: translateX(30px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+
+            /* Card Header - ICON AND HEADING IN SAME LINE */
+            .card-header {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-bottom: 25px;
+                position: relative;
+            }
+
+            .header-icon {
+                width: 50px;
+                height: 50px;
+                background: rgba(73, 166, 233, 0.15);
+                border-radius: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #49a6e9;
+                font-size: 1.5rem;
+                transition: all 0.3s ease;
+            }
+
+            .content-card:hover .header-icon {
+                background: #49a6e9;
+                color: white;
+                transform: scale(1.1);
+                box-shadow: 0 10px 20px rgba(73, 166, 233, 0.3);
+            }
+
+            .card-header h2 {
+                font-size: 2rem;
+                margin: 0;
+                flex: 1;
+            }
+
+            .gradient-text {
+                background: linear-gradient(135deg, #fff 0%, #49a6e9 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                position: relative;
+            }
+
+            .header-line {
+                width: 4px;
+                height: 30px;
+                background: linear-gradient(to bottom, #49a6e9, transparent);
+                margin-left: auto;
+            }
+
+            .card-content {
+                max-height: 450px;
+                overflow-y: auto;
+                padding-right: 15px;
+            }
+
+            .card-content::-webkit-scrollbar {
+                width: 4px;
+            }
+
+            .card-content::-webkit-scrollbar-track {
+                background: rgba(73, 166, 233, 0.05);
+                border-radius: 4px;
+            }
+
+            .card-content::-webkit-scrollbar-thumb {
+                background: #49a6e9;
+                border-radius: 4px;
+            }
+
+            /* Objective Section */
+            .objective-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 15px;
+                margin-bottom: 25px;
+            }
+
+            .objective-card {
+                background: rgba(255, 255, 255, 0.02);
+                border: 1px solid rgba(73, 166, 233, 0.1);
+                border-radius: 18px;
+                padding: 20px 15px;
+                text-align: center;
+                transition: all 0.3s ease;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .objective-card::before {
+                content: '';
+                position: absolute;
+                top: -50%;
+                left: -50%;
+                width: 200%;
+                height: 200%;
+                background: radial-gradient(circle, rgba(73, 166, 233, 0.1), transparent 70%);
+                opacity: 0;
+                transition: opacity 0.5s ease;
+            }
+
+            .objective-card:hover {
+                transform: translateY(-5px);
+                border-color: #49a6e9;
+                box-shadow: 0 10px 30px rgba(73, 166, 233, 0.2);
+            }
+
+            .objective-card:hover::before {
+                opacity: 1;
+                animation: rotate 10s linear infinite;
+            }
+
+            .objective-card .card-icon {
+                width: 45px;
+                height: 45px;
+                margin: 0 auto 12px;
+                background: rgba(73, 166, 233, 0.1);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #49a6e9;
                 font-size: 1.3rem;
-                border-radius: 14px;
             }
 
-            .exp-header h3 {
+            .objective-card h3 {
+                color: white;
+                font-size: 1rem;
+                margin-bottom: 8px;
+            }
+
+            .objective-card p {
+                color: rgba(255, 255, 255, 0.6);
+                font-size: 0.85rem;
+                line-height: 1.4;
+            }
+
+            .objective-text {
+                margin-bottom: 25px;
+            }
+
+            .glowing-text {
+                color: rgba(255, 255, 255, 0.8);
+                font-size: 0.95rem;
+                line-height: 1.7;
+                text-align: center;
+                padding: 20px;
+                background: rgba(255, 255, 255, 0.02);
+                border-radius: 18px;
+                border: 1px solid rgba(73, 166, 233, 0.1);
+                position: relative;
+                overflow: hidden;
+            }
+
+            .glowing-text::before {
+                content: '';
+                position: absolute;
+                top: -2px;
+                left: -2px;
+                right: -2px;
+                bottom: -2px;
+                background: linear-gradient(45deg, #49a6e9, transparent, #49a6e9);
+                border-radius: 18px;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                z-index: -1;
+            }
+
+            .glowing-text:hover::before {
+                opacity: 0.3;
+                animation: borderRotate 3s linear infinite;
+            }
+
+            @keyframes borderRotate {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+
+            .highlight {
+                color: #49a6e9;
+                font-weight: 600;
+            }
+
+            .connect-message {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 12px;
+                padding: 15px;
+                background: linear-gradient(135deg, rgba(73, 166, 233, 0.1), rgba(73, 166, 233, 0.05));
+                border-radius: 40px;
+                color: white;
+                font-size: 0.95rem;
+            }
+
+            .connect-message i {
+                color: #49a6e9;
+                animation: pulse 2s infinite;
+            }
+
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+
+                50% {
+                    transform: scale(1.1);
+                }
+
+                100% {
+                    transform: scale(1);
+                }
+            }
+
+            /* ===== COLORED SKILL ICONS ===== */
+            /* Category Icons */
+            .category-icon {
+                color: #49a6e9 !important;
+                filter: drop-shadow(0 0 5px rgba(73, 166, 233, 0.3));
+            }
+
+            /* Language Icons */
+            .java-icon {
+                color: #007396 !important;
+            }
+
+            .python-icon {
+                color: #3776AB !important;
+            }
+
+            .c-icon {
+                color: #00599C !important;
+            }
+
+            .csharp-icon {
+                color: #239120 !important;
+            }
+
+            .js-icon {
+                color: #F7DF1E !important;
+            }
+
+            .php-icon {
+                color: #777BB4 !important;
+            }
+
+            .html-icon {
+                color: #E34F26 !important;
+            }
+
+            .css-icon {
+                color: #1572B6 !important;
+            }
+
+            .node-icon {
+                color: #339933 !important;
+            }
+
+            /* Framework Icons */
+            .spring-icon {
+                color: #6DB33F !important;
+            }
+
+            .django-icon {
+                color: #092E20 !important;
+            }
+
+            .rest-icon {
+                color: #FF6C37 !important;
+            }
+
+            .camel-icon {
+                color: #E57E25 !important;
+            }
+
+            .angular-icon {
+                color: #DD0031 !important;
+            }
+
+            .bootstrap-icon {
+                color: #7952B3 !important;
+            }
+
+            .react-icon {
+                color: #61DAFB !important;
+            }
+
+            /* Database Icons */
+            .mysql-icon {
+                color: #4479A1 !important;
+            }
+
+            .sqlserver-icon {
+                color: #CC2927 !important;
+            }
+
+            .mongodb-icon {
+                color: #47A248 !important;
+            }
+
+            .rdbms-icon {
+                color: #F29111 !important;
+            }
+
+            /* Tools Icons */
+            .ibm-icon {
+                color: #052FAD !important;
+            }
+
+            .openshift-icon {
+                color: #EE0000 !important;
+            }
+
+            .docker-icon {
+                color: #2496ED !important;
+            }
+
+            .git-icon {
+                color: #F05032 !important;
+            }
+
+            .selenium-icon {
+                color: #43B02A !important;
+            }
+
+            .testng-icon {
+                color: #FF6C2C !important;
+            }
+
+            .nodered-icon {
+                color: #8F0000 !important;
+            }
+
+            /* Design Icons */
+            .figma-icon {
+                color: #F24E1E !important;
+            }
+
+            .photoshop-icon {
+                color: #31A8FF !important;
+            }
+
+            .xd-icon {
+                color: #FF61F6 !important;
+            }
+
+            .premiere-icon {
+                color: #9999FF !important;
+            }
+
+            .wireframe-icon {
+                color: #FF9A00 !important;
+            }
+
+            .prototype-icon {
+                color: #7F52FF !important;
+            }
+
+            /* AI/ML Icons */
+            .pytorch-icon {
+                color: #EE4C2C !important;
+            }
+
+            .tensorflow-icon {
+                color: #FF6F00 !important;
+            }
+
+            .keras-icon {
+                color: #D00000 !important;
+            }
+
+            .opencv-icon {
+                color: #5C3EE8 !important;
+            }
+
+            .yolo-icon {
+                color: #00FFFF !important;
+            }
+
+            .cnn-icon {
+                color: #8B5CF6 !important;
+            }
+
+            /* Development Icons */
+            .microservices-icon {
+                color: #00BFA6 !important;
+            }
+
+            .cicd-icon {
+                color: #4285F4 !important;
+            }
+
+            .agile-icon {
+                color: #FF6F61 !important;
+            }
+
+            .unittest-icon {
+                color: #28A745 !important;
+            }
+
+            .wcag-icon {
+                color: #FFD700 !important;
+            }
+
+            .seo-icon {
+                color: #FF9800 !important;
+            }
+
+            /* Skills Section */
+            .skills-futuristic {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .skill-category {
+                background: rgba(255, 255, 255, 0.02);
+                border: 1px solid rgba(73, 166, 233, 0.1);
+                border-radius: 18px;
+                padding: 16px;
+                transition: all 0.3s ease;
+            }
+
+            .skill-category:hover {
+                border-color: #49a6e9;
+                box-shadow: 0 5px 20px rgba(73, 166, 233, 0.15);
+                transform: translateX(5px);
+            }
+
+            .skill-category.full-width {
+                grid-column: 1 / -1;
+            }
+
+            .category-title {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                margin-bottom: 12px;
+                padding-bottom: 8px;
+                border-bottom: 1px solid rgba(73, 166, 233, 0.2);
+            }
+
+            .category-title i {
                 font-size: 1.1rem;
             }
 
-            .exp-position {
-                font-size: 0.8rem;
+            .category-title h3 {
+                color: white;
+                font-size: 0.95rem;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+                margin: 0;
             }
 
-            .skill-item {
-                padding: 5px 12px;
-                font-size: 0.7rem;
-                white-space: nowrap;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .exp-scroll-container {
-                padding: 20px 30px;
+            .skill-grid {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
             }
 
-            .exp-card {
-                flex: 0 0 300px;
+            .skill-card {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                padding: 6px 12px;
+                background: rgba(255, 255, 255, 0.02);
+                border: 1px solid rgba(73, 166, 233, 0.15);
+                border-radius: 25px;
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                cursor: pointer;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .skill-card::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, rgba(73, 166, 233, 0.2), transparent);
+                transition: left 0.5s ease;
+            }
+
+            .skill-card:hover {
+                transform: translateY(-2px) scale(1.02);
+                border-color: #49a6e9;
+                background: rgba(73, 166, 233, 0.1);
+                box-shadow: 0 5px 15px rgba(73, 166, 233, 0.3);
+            }
+
+            .skill-card:hover::before {
+                left: 100%;
+            }
+
+            .skill-card i {
+                font-size: 0.9rem;
+                transition: all 0.3s ease;
+            }
+
+            .skill-card:hover i {
+                color: white !important;
+                transform: rotate(360deg);
+            }
+
+            .skill-card span {
+                color: rgba(255, 255, 255, 0.9);
+                font-size: 0.75rem;
+                font-weight: 500;
+                transition: all 0.3s ease;
+            }
+
+            .skill-card:hover span {
+                color: white;
+            }
+
+            /* Education Timeline */
+            .education-timeline {
+                position: relative;
+                padding-left: 25px;
+            }
+
+            .timeline-item {
+                position: relative;
+                margin-bottom: 30px;
+            }
+
+            .timeline-dot {
+                position: absolute;
+                left: -29px;
+                top: 20px;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: #49a6e9;
+                box-shadow: 0 0 20px #49a6e9;
+                animation: dotPulse 2s infinite;
+            }
+
+            @keyframes dotPulse {
+                0% {
+                    box-shadow: 0 0 0 0 rgba(73, 166, 233, 0.7);
+                }
+
+                70% {
+                    box-shadow: 0 0 0 10px rgba(73, 166, 233, 0);
+                }
+
+                100% {
+                    box-shadow: 0 0 0 0 rgba(73, 166, 233, 0);
+                }
+            }
+
+            .timeline-line {
+                position: absolute;
+                left: -25px;
+                top: 30px;
+                bottom: -30px;
+                width: 2px;
+                background: linear-gradient(to bottom, #49a6e9, transparent);
+            }
+
+            .timeline-item:last-child .timeline-line {
+                display: none;
+            }
+
+            .timeline-card {
+                background: rgba(255, 255, 255, 0.02);
+                border: 1px solid rgba(73, 166, 233, 0.1);
+                border-radius: 18px;
+                padding: 20px;
+                position: relative;
+                overflow: hidden;
+                transition: all 0.5s ease;
+                transform-style: preserve-3d;
+                min-height: 160px;
+            }
+
+            .timeline-card:hover {
+                transform: translateX(10px) rotateY(5deg);
+                border-color: #49a6e9;
+                box-shadow: 0 10px 30px rgba(73, 166, 233, 0.2);
+            }
+
+            .card-front i {
+                font-size: 1.8rem;
+                color: #49a6e9;
+                margin-bottom: 12px;
+            }
+
+            .card-front h3 {
+                color: white;
+                font-size: 1.1rem;
+                margin-bottom: 8px;
+            }
+
+            .gpa {
+                color: #49a6e9;
+                font-size: 0.95rem;
+                font-weight: 600;
+            }
+
+            .card-back {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(22, 33, 62, 0.95);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                opacity: 0;
+                transform: translateY(100%);
+                border-radius: 18px;
                 padding: 20px;
             }
 
-            .exp-icon {
-                width: 40px;
-                height: 40px;
-                font-size: 1.1rem;
+            .timeline-card:hover .card-back {
+                opacity: 1;
+                transform: translateY(0);
             }
 
-            .exp-meta {
-                gap: 6px;
-            }
-
-            .exp-date {
-                font-size: 0.7rem;
-                padding: 4px 10px;
-            }
-
-            .skill-item {
-                padding: 4px 10px;
-                font-size: 0.65rem;
-                white-space: nowrap;
-            }
-        }
-
-        /* Fix for long company names */
-        @media (max-width: 380px) {
-            .exp-card {
-                flex: 0 0 280px;
-            }
-
-            .exp-header h3 {
+            .card-back p {
+                color: white;
                 font-size: 1rem;
+                margin-bottom: 8px;
             }
-        }
-    </style>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const track = document.getElementById('expTrack');
-            const prevBtn = document.getElementById('expPrevBtn');
-            const nextBtn = document.getElementById('expNextBtn');
-            const dots = document.querySelectorAll('.exp-dot');
+            .card-back .date {
+                color: #49a6e9;
+                font-size: 0.85rem;
+            }
 
-            const cardWidth = 430; // card width + gap (400 + 30)
-            let currentIndex = 0;
-            const maxIndex = dots.length - 1;
+            /* Scroll Indicators */
+            .scroll-indicators {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                margin-top: 20px;
+            }
 
-            // Scroll to card function
-            function scrollToCard(index) {
-                if (index < 0) index = 0;
-                if (index > maxIndex) index = maxIndex;
+            .indicator {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: rgba(255, 255, 255, 0.2);
+                transition: all 0.3s ease;
+                cursor: pointer;
+            }
 
-                track.scrollTo({
-                    left: index * cardWidth,
-                    behavior: 'smooth'
-                });
+            .indicator.active {
+                width: 30px;
+                border-radius: 4px;
+                background: #49a6e9;
+                box-shadow: 0 0 15px #49a6e9;
+            }
 
-                // Update dots
-                dots.forEach((dot, i) => {
-                    if (i === index) {
-                        dot.classList.add('active');
+            .indicator:hover {
+                background: #49a6e9;
+            }
+
+            /* Mobile Responsive */
+            @media (max-width: 1200px) {
+                .content-card {
+                    flex: 0 0 650px;
+                    padding: 30px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .futuristic-container {
+                    flex-direction: column;
+                    padding: 0 20px;
+                }
+
+                .fixed-image-section {
+                    position: relative;
+                    top: 0;
+                    flex: 0 0 auto;
+                    width: 280px;
+                    margin: 0 auto 30px;
+                }
+
+                .horizontal-scroll-container {
+                    padding: 0 25px;
+                }
+
+                .content-card {
+                    flex: 0 0 550px;
+                }
+
+                .plain-chevron {
+                    font-size: 1.8rem;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .card-header {
+                    gap: 10px;
+                }
+
+                .header-icon {
+                    width: 40px;
+                    height: 40px;
+                    font-size: 1.2rem;
+                }
+
+                .card-header h2 {
+                    font-size: 1.6rem;
+                }
+
+                .header-line {
+                    height: 25px;
+                }
+
+                .horizontal-nav {
+                    gap: 15px;
+                    padding: 12px;
+                }
+
+                .nav-label {
+                    display: none;
+                }
+
+                .nav-dot {
+                    padding: 8px 12px;
+                }
+
+                .nav-dot .dot {
+                    width: 12px;
+                    height: 12px;
+                }
+
+                .content-card {
+                    flex: 0 0 calc(100vw - 100px);
+                    padding: 25px;
+                }
+
+                .objective-grid {
+                    grid-template-columns: 1fr;
+                }
+
+                .plain-chevron {
+                    font-size: 1.5rem;
+                }
+
+                .chevron-left {
+                    left: -10px;
+                }
+
+                .chevron-right {
+                    right: -10px;
+                }
+
+                .stat-item:not(:last-child)::after {
+                    display: none;
+                }
+
+                .image-stats {
+                    flex-wrap: wrap;
+                    gap: 15px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .card-header {
+                    gap: 8px;
+                }
+
+                .header-icon {
+                    width: 35px;
+                    height: 35px;
+                    font-size: 1rem;
+                }
+
+                .card-header h2 {
+                    font-size: 1.4rem;
+                }
+
+                .content-card {
+                    flex: 0 0 calc(100vw - 80px);
+                    padding: 20px;
+                }
+
+                .skill-card {
+                    padding: 4px 10px;
+                }
+
+                .skill-card span {
+                    font-size: 0.7rem;
+                }
+
+                .horizontal-nav {
+                    gap: 10px;
+                }
+
+                .plain-chevron {
+                    font-size: 1.3rem;
+                }
+            }
+        </style>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const track = document.getElementById('horizontalTrack');
+                const leftChevron = document.getElementById('scrollLeft');
+                const rightChevron = document.getElementById('scrollRight');
+                const navDots = document.querySelectorAll('.nav-dot');
+                const indicators = document.querySelectorAll('.indicator');
+                const cards = document.querySelectorAll('.content-card');
+
+                let currentIndex = 0;
+                const maxIndex = cards.length - 1;
+
+                // Function to get card width including gap
+                function getCardWidth() {
+                    if (window.innerWidth <= 768) {
+                        return window.innerWidth - 80; // Mobile
+                    } else if (window.innerWidth <= 992) {
+                        return 580; // Tablet (550 + 30 gap)
+                    } else if (window.innerWidth <= 1200) {
+                        return 680; // Small desktop (650 + 30 gap)
                     } else {
-                        dot.classList.remove('active');
+                        return 780; // Desktop (750 + 30 gap)
                     }
-                });
+                }
 
-                currentIndex = index;
-            }
+                // Scroll to card function
+                function scrollToCard(index) {
+                    if (index < 0) index = 0;
+                    if (index > maxIndex) index = maxIndex;
 
-            // Previous button
-            if (prevBtn) {
-                prevBtn.addEventListener('click', function () {
-                    scrollToCard(currentIndex - 1);
-                });
-            }
+                    const cardWidth = getCardWidth();
 
-            // Next button
-            if (nextBtn) {
-                nextBtn.addEventListener('click', function () {
-                    scrollToCard(currentIndex + 1);
-                });
-            }
+                    track.scrollTo({
+                        left: index * cardWidth,
+                        behavior: 'smooth'
+                    });
 
-            // Dot click
-            dots.forEach((dot, index) => {
-                dot.addEventListener('click', function () {
-                    scrollToCard(index);
-                });
-            });
-
-            // Update dots on scroll
-            track.addEventListener('scroll', function () {
-                const scrollPosition = track.scrollLeft;
-                const index = Math.round(scrollPosition / cardWidth);
-
-                if (index !== currentIndex && index >= 0 && index <= maxIndex) {
-                    currentIndex = index;
-                    dots.forEach((dot, i) => {
+                    // Update nav dots
+                    navDots.forEach((dot, i) => {
                         if (i === index) {
                             dot.classList.add('active');
                         } else {
                             dot.classList.remove('active');
                         }
                     });
+
+                    // Update indicators
+                    indicators.forEach((indicator, i) => {
+                        if (i === index) {
+                            indicator.classList.add('active');
+                        } else {
+                            indicator.classList.remove('active');
+                        }
+                    });
+
+                    currentIndex = index;
                 }
-            });
 
-            // Keyboard navigation
-            document.addEventListener('keydown', function (e) {
-                // Check if we're in the experience section
-                const threeSection = document.getElementById('three');
-                const rect = threeSection.getBoundingClientRect();
-                const isInView = rect.top < window.innerHeight && rect.bottom > 0;
+                // Chevron click handlers
+                leftChevron.addEventListener('click', function () {
+                    scrollToCard(currentIndex - 1);
+                });
 
-                if (isInView) {
-                    if (e.key === 'ArrowLeft') {
-                        e.preventDefault();
-                        scrollToCard(currentIndex - 1);
-                    } else if (e.key === 'ArrowRight') {
-                        e.preventDefault();
-                        scrollToCard(currentIndex + 1);
+                rightChevron.addEventListener('click', function () {
+                    scrollToCard(currentIndex + 1);
+                });
+
+                // Nav dot click handlers
+                navDots.forEach((dot, index) => {
+                    dot.addEventListener('click', function () {
+                        scrollToCard(index);
+                    });
+                });
+
+                // Indicator click handlers
+                indicators.forEach((indicator, index) => {
+                    indicator.addEventListener('click', function () {
+                        scrollToCard(index);
+                    });
+                });
+
+                // Update on scroll
+                let scrollTimeout;
+                track.addEventListener('scroll', function () {
+                    clearTimeout(scrollTimeout);
+                    scrollTimeout = setTimeout(() => {
+                        const cardWidth = getCardWidth();
+                        const scrollPosition = track.scrollLeft;
+                        const index = Math.round(scrollPosition / cardWidth);
+
+                        if (index !== currentIndex && index >= 0 && index <= maxIndex) {
+                            currentIndex = index;
+
+                            navDots.forEach((dot, i) => {
+                                if (i === index) {
+                                    dot.classList.add('active');
+                                } else {
+                                    dot.classList.remove('active');
+                                }
+                            });
+
+                            indicators.forEach((indicator, i) => {
+                                if (i === index) {
+                                    indicator.classList.add('active');
+                                } else {
+                                    indicator.classList.remove('active');
+                                }
+                            });
+                        }
+                    }, 50);
+                });
+
+                // Keyboard navigation
+                document.addEventListener('keydown', function (e) {
+                    const section = document.getElementById('one');
+                    const rect = section.getBoundingClientRect();
+                    const isInView = rect.top < window.innerHeight && rect.bottom > 0;
+
+                    if (isInView) {
+                        if (e.key === 'ArrowLeft') {
+                            e.preventDefault();
+                            scrollToCard(currentIndex - 1);
+                        } else if (e.key === 'ArrowRight') {
+                            e.preventDefault();
+                            scrollToCard(currentIndex + 1);
+                        }
                     }
-                }
+                });
+
+                // Initialize first card
+                scrollToCard(0);
+
+                // Recalculate on window resize
+                window.addEventListener('resize', function () {
+                    scrollToCard(currentIndex);
+                });
             });
+        </script> <!-- Work Experience -->
+        <section id="three" class="wrapper style3 special">
+            <div class="inner">
+                <header class="major">
+                    <h2>Work Experience</h2>
+                </header>
 
-            // Initialize first dot
-            scrollToCard(0);
-        });
-    </script>
-    <!-- Two -->
-    <section id="two" class="wrapper alt style2 ">
-        <section class="spotlight ">
-            <div class="image frame image-container"><a href="https://github.com/saiteja0704/Ideabook">
-                    <img src="images/Ideabook_home.png " class="image" alt=" Idea Book Image thumbnail" /></a></div>
-            <div class="content ">
-                <h2>
-                    <a href="https://github.com/saiteja0704/Ideabook">Idea Book</a>
-                </h2>
-                <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Ideabook is a
-                    dynamic platform designed to facilitate the exchange and collaboration of innovative ideas between
-                    students and faculty. Inspired by the simplicity of social media posts, it creates an interactive
-                    space where ideas can be
-                    shared, discussed, and transformed into actionable projects.</p>
-            </div>
-        </section>
-        <section class="spotlight ">
-            <div class="image frame image-container">
-                <a href="https://github.com/saiteja0704/Spyro">
-                    <img src="images/spyro.jpg " alt="Spyro Project Screenshot" class="image" />
-                    <span class="sr-only">View Spyro project on GitHub</span>
-                </a>
-            </div>
-            <div class="content ">
-                <h2>
-                    <a href="https://github.com/saiteja0704/Spyro">Spyro</a>
-                </h2>
-                <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">A customer
-                    care chatbot developed to manage inquiries about store locations and appointment scheduling with
-                    ease. Powered by Watson Discovery, it incorporates advanced document understanding and leverages
-                    cloud functions to intelligently
-                    address queries that extend beyond the chatbot's standard capabilities</p>
-            </div>
-        </section>
-        <section class="spotlight ">
-            <div class="image frame image-container">
-                <a href="https://github.com/saiteja0704/No-due-Digitalization"><img src="images/mini.png "
-                        alt=" No due Digitalization Project Screenshot" class="image" /></a>
-            </div>
-            <div class="content ">
-                <h2>
-                    <a href="https://github.com/saiteja0704/No-due-Digitalization">No-Due Digitalization</a>
-                </h2>
-                <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">A web
-                    application that transforms the traditionally time-consuming process of issuing No Due slips at our
-                    college. By seamlessly integrating student and faculty portals, it optimizes and accelerates the
-                    workflow, offering a more efficient
-                    and user-friendly solution.</p>
-            </div>
-        </section>
-        <section class="spotlight ">
-            <div class="image frame image-container"><a href="https://match-letter.netlify.app/">
-                    <img src="images/react.jpg " alt="Match Letter Project Screenshot" class="image" /></a></div>
-            <div class="content ">
-                <h2>
-                    <a href="https://match-letter.netlify.app/">Bored?? Wanna try a small memory game?</a>
-                </h2>
-                <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">During my
-                    expedition to master the React framework and its variants like TypeScript and JavaScript, I created
-                    a simple memory game where players are presented with a grid of random face-down cards, and the goal
-                    is to flip them over and find the first matching pair.</p>
-            </div>
-        </section>
+                <!-- Horizontal Scroll Container -->
+                <div class="exp-scroll-container">
+                    <div class="exp-track" id="expTrack">
 
-        <section class="spotlight ai-bg">
-            <div style="padding-left: 3%;">
-                <h3>AL-ML <br> Projects</h3>
-            </div>
-            <div class="carousel  ">
-                <div class="carousel-items">
-                    <!-- Carousel Item 1 -->
-                    <div class="carousel-item">
-                        <div class="carousel-caption">
-                            <h5>Image Classification and Segmentation</h5>
-                            <p>Technologies: Python, OpenCV, Seaborn, Matplotlib, TensorFlow, Keras, PyTorch</p>
-                            <ul>
-                                <li>&bull; Devised deep learning models for image classification and segmentation using
-                                    Chest X-Ray and Kvasir-Segmentation datasets, significantly improving pneumonia
-                                    detection accuracy.</li>
-                                <li>&bull; Utilized CNNs and segmentation algorithms, achieving an IoU score of 0.9130
-                                    and a Dice Index score of 0.1277 for gastrointestinal tract image segmentation.</li>
-                            </ul>
-                            <a href="https://github.com/saiteja0704/Image-Classification-and-Segmentation"
-                                class="btn btn-primary">View on GitHub</a>
+                        <!-- Georgia Southern University -->
+                        <div class="exp-card">
+                            <div class="exp-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="exp-content">
+                                <div class="exp-header">
+                                    <h3>Georgia Southern University</h3>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-position">Web Content Specialist</span>
+                                    <span class="exp-date"><i class="far fa-calendar-alt"></i> Nov 2025 - Present</span>
+                                </div>
+                                <div class="exp-skills">
+                                    <span class="skill-item"><i class="fab fa-wordpress"></i> WordPress</span>
+                                    <span class="skill-item"><i class="fas fa-paint-brush"></i> UI/UX</span>
+                                    <span class="skill-item"><i class="fab fa-react"></i> React</span>
+                                    <span class="skill-item"><i class="fab fa-js"></i> TypeScript</span>
+                                    <span class="skill-item"><i class="fab fa-figma"></i> Figma</span>
+                                    <span class="skill-item"><i class="fab fa-git-alt"></i> Git</span>
+                                    <span class="skill-item"><i class="fas fa-cloud-upload-alt"></i> Vercel</span>
+                                    <span class="skill-item"><i class="fas fa-tasks"></i> Asana</span>
+                                    <span class="skill-item"><i class="fas fa-sync-alt"></i> Agile</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bright Mind Enrichment -->
+                        <div class="exp-card">
+                            <div class="exp-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="exp-content">
+                                <div class="exp-header">
+                                    <h3>Bright Mind Enrichment</h3>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-position">Full Stack Developer & Content Specialist</span>
+                                    <span class="exp-date"><i class="far fa-calendar-alt"></i> Feb 2025 - Present</span>
+                                </div>
+                                <div class="exp-skills">
+                                    <span class="skill-item"><i class="fab fa-react"></i> React</span>
+                                    <span class="skill-item"><i class="fab fa-js"></i> TypeScript</span>
+                                    <span class="skill-item"><i class="fas fa-paint-brush"></i> UI/UX</span>
+                                    <span class="skill-item"><i class="fab fa-figma"></i> Figma</span>
+                                    <span class="skill-item"><i class="fab fa-git-alt"></i> Git</span>
+                                    <span class="skill-item"><i class="fas fa-cloud-upload-alt"></i> Vercel</span>
+                                    <span class="skill-item"><i class="fas fa-tasks"></i> Asana</span>
+                                    <span class="skill-item"><i class="fas fa-sync-alt"></i> Agile</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Office of Intercultural Student Life -->
+                        <div class="exp-card">
+                            <div class="exp-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="exp-content">
+                                <div class="exp-header">
+                                    <h3>Office of Intercultural Student Life</h3>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-position">Community Assistant</span>
+                                    <span class="exp-date"><i class="far fa-calendar-alt"></i> Jul 2024 - Dec
+                                        2024</span>
+                                </div>
+                                <div class="exp-skills">
+                                    <span class="skill-item"><i class="fab fa-wordpress"></i> WordPress</span>
+                                    <span class="skill-item"><i class="fas fa-database"></i> CMS Management</span>
+                                    <span class="skill-item"><i class="fab fa-figma"></i> Figma</span>
+                                    <span class="skill-item"><i class="fas fa-camera"></i> Photoshop</span>
+                                    <span class="skill-item"><i class="fas fa-search"></i> SEO</span>
+                                    <span class="skill-item"><i class="fas fa-universal-access"></i> WCAG</span>
+                                    <span class="skill-item"><i class="fas fa-calendar-alt"></i> Event Planning</span>
+                                    <span class="skill-item"><i class="fas fa-hand-holding-heart"></i> Community
+                                        Engagement</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Kent Indian Association -->
+                        <div class="exp-card">
+                            <div class="exp-icon">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <div class="exp-content">
+                                <div class="exp-header">
+                                    <h3>Kent Indian Association</h3>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-position">President</span>
+                                    <span class="exp-date"><i class="far fa-calendar-alt"></i> Jan 2024 - Dec
+                                        2024</span>
+                                </div>
+                                <div class="exp-skills">
+                                    <span class="skill-item"><i class="fas fa-chess-queen"></i> Leadership</span>
+                                    <span class="skill-item"><i class="fab fa-wordpress"></i> WordPress</span>
+                                    <span class="skill-item"><i class="fas fa-search"></i> SEO</span>
+                                    <span class="skill-item"><i class="fas fa-universal-access"></i> WCAG</span>
+                                    <span class="skill-item"><i class="fab fa-figma"></i> Figma</span>
+                                    <span class="skill-item"><i class="fas fa-calendar-check"></i> Event
+                                        Management</span>
+                                    <span class="skill-item"><i class="fas fa-microphone"></i> Public Speaking</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Dark Horse Digital Solutions -->
+                        <div class="exp-card">
+                            <div class="exp-icon">
+                                <i class="fas fa-horse"></i>
+                            </div>
+                            <div class="exp-content">
+                                <div class="exp-header">
+                                    <h3>Dark Horse Digital Solutions</h3>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-position">Software Developer / Web Content Specialist</span>
+                                    <span class="exp-date"><i class="far fa-calendar-alt"></i> May 2021 - Dec
+                                        2022</span>
+                                </div>
+                                <div class="exp-skills">
+                                    <span class="skill-item"><i class="fas fa-leaf"></i> Spring Boot</span>
+                                    <span class="skill-item"><i class="fab fa-angular"></i> AngularJS</span>
+                                    <span class="skill-item"><i class="fas fa-plug"></i> REST APIs</span>
+                                    <span class="skill-item"><i class="fab fa-figma"></i> Figma</span>
+                                    <span class="skill-item"><i class="fas fa-pen-nib"></i> Adobe XD</span>
+                                    <span class="skill-item"><i class="fab fa-wordpress"></i> WordPress</span>
+                                    <span class="skill-item"><i class="fas fa-cloud"></i> OpenShift</span>
+                                    <span class="skill-item"><i class="fas fa-cog"></i> IBM BPM</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DXC Technologies -->
+                        <div class="exp-card">
+                            <div class="exp-icon">
+                                <i class="fas fa-flask"></i>
+                            </div>
+                            <div class="exp-content">
+                                <div class="exp-header">
+                                    <h3>DXC Technologies</h3>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-position">Automation Testing Engineer</span>
+                                    <span class="exp-date"><i class="far fa-calendar-alt"></i> Nov 2020 - May
+                                        2021</span>
+                                </div>
+                                <div class="exp-skills">
+                                    <span class="skill-item"><i class="fas fa-robot"></i> Selenium</span>
+                                    <span class="skill-item"><i class="fas fa-flask"></i> TestNG</span>
+                                    <span class="skill-item"><i class="fas fa-code-branch"></i> CI/CD</span>
+                                    <span class="skill-item"><i class="fas fa-cogs"></i> Automation Frameworks</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Smart Internz (IBM) -->
+                        <div class="exp-card">
+                            <div class="exp-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <div class="exp-content">
+                                <div class="exp-header">
+                                    <h3>Smart Internz</h3>
+                                    <span class="exp-collab">in collaboration with IBM</span>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-position">AI Developer Intern</span>
+                                    <span class="exp-date"><i class="far fa-calendar-alt"></i> May 2020 - Aug
+                                        2020</span>
+                                </div>
+                                <div class="exp-skills">
+                                    <span class="skill-item"><i class="fas fa-comment-dots"></i> Watson Assistant</span>
+                                    <span class="skill-item"><i class="fas fa-search"></i> Watson Discovery</span>
+                                    <span class="skill-item"><i class="fas fa-project-diagram"></i> Node-Red</span>
+                                    <span class="skill-item"><i class="fas fa-universal-access"></i> Accessibility
+                                        Design</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- JP Morgan -->
+                        <div class="exp-card">
+                            <div class="exp-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="exp-content">
+                                <div class="exp-header">
+                                    <h3>JP Morgan</h3>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-position">Software Engineering Intern</span>
+                                    <span class="exp-date"><i class="far fa-calendar-alt"></i> Jun 2019 - Aug
+                                        2019</span>
+                                </div>
+                                <div class="exp-skills">
+                                    <span class="skill-item"><i class="fab fa-python"></i> Python</span>
+                                    <span class="skill-item"><i class="fab fa-node-js"></i> Node.js</span>
+                                    <span class="skill-item"><i class="fab fa-html5"></i> HTML5</span>
+                                    <span class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</span>
+                                    <span class="skill-item"><i class="fab fa-js"></i> JavaScript</span>
+                                    <span class="skill-item"><i class="fas fa-universal-access"></i> WCAG</span>
+                                    <span class="skill-item"><i class="fas fa-plug"></i> REST APIs</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- Carousel Item 2 -->
-                    <div class="carousel-item">
-                        <div class="carousel-caption">
-                            <h5>Communication through Gestures</h5>
-                            <p>Technologies: Python, TensorFlow, CNN, ReLU, Softmax, Adam Optimizer, Max Pooling</p>
-                            <ul>
-                                <li>&bull; Developed and implemented a convolutional neural network (CNN) for real-time
-                                    image classification of human gestures, achieving an overall accuracy of 85.86%.
-                                </li>
-                                <li>&bull; Enhanced applications in sign language recognition and human-robot
-                                    interaction with precision, recall, and F1 scores of 0.867, 0.859, and 0.855
-                                    respectively.</li>
-                            </ul>
-                            <a href="https://github.com/saiteja0704/Communication-through-gestures2"
-                                class="btn btn-primary">View on GitHub</a>
-                        </div>
-                    </div>
-                    <!-- Carousel Item 3 -->
-                    <div class="carousel-item">
-                        <div class="carousel-caption">
-                            <h5>Third Eye</h5>
-                            <p>Technologies: Python, Pytesseract, RPA, OpenCV, Pillow, TensorFlow, PyTorch, YOLO, Keras
-                            </p>
-                            <ul>
-                                <li>&bull; Executed an RPA-driven image processing solution using live traffic camera
-                                    feeds to identify individuals not wearing helmets.</li>
-                                <li>&bull; Trained the model on a diverse dataset of over 600 riders, achieving an
-                                    accuracy of 75% in identifying non-compliant individuals.</li>
-                            </ul>
-                            <a href="https://github.com/saiteja0704/Third-Eye" class="btn btn-primary">View on
-                                GitHub</a>
-                        </div>
+
+                    <!-- Larger Minimalist Arrow Controls -->
+                    <button class="exp-arrow exp-arrow-left" id="expPrevBtn" aria-label="Previous experience">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                    <button class="exp-arrow exp-arrow-right" id="expNextBtn" aria-label="Next experience">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                    <!-- Minimal Indicators -->
+                    <div class="exp-dots">
+                        <span class="exp-dot active"></span>
+                        <span class="exp-dot"></span>
+                        <span class="exp-dot"></span>
+                        <span class="exp-dot"></span>
+                        <span class="exp-dot"></span>
+                        <span class="exp-dot"></span>
+                        <span class="exp-dot"></span>
+                        <span class="exp-dot"></span>
                     </div>
                 </div>
-                <!-- Carousel Controls -->
-                <div class="carousel-btns">
-                    <div class="carousel-btn prev" onclick="prevSlide()">&#10094;</div>
-                    <div class="carousel-btn next" onclick="nextSlide()">&#10095;</div>
-                </div>
             </div>
         </section>
-    </section>
 
-
-
-    <!-- Footer -->
-    <footer id="footer">
-        <ul class="icons">
-            <li>
-                <a href="Resume/Resume.pdf" class="fas fa-file icon tooltip" data-info="Download Resume" id="hel">
-                    <span class="sr-only">Download Resume (PDF)</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/saiteja0704 " class="icon brands fa-github tooltip " data-info="saiteja0704"
-                    id="hel"><span class="sr-only">GitHub Profile</span></a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/saiteja0407/ " class="icon brands fa-linkedin tooltip"
-                    data-info="saiteja0407" id="hel"><span class="sr-only">LinkedIn Profile</span></a>
-            </li>
-            <li>
-                <a href="mailto:saiteja0704@gmail.com " class="icon fa-envelope tooltip"
-                    data-info="saiteja0704@gmail.com" id="hel"><span class="sr-only">Email:
-                        saiteja0704@gmail.com</span></a>
-            </li>
-            <li>
-                <!-- <a href="tel:+12342385184" class="tooltip" data-info="+12342385184" id="hel" style="display: inline-block; width: 24px; height: 24px; background-image: url('images/phone.png'); background-size: cover;"></a> -->
-                <a href="tel:+12342385184" class="bi bi-telephone icon tooltip" data-info="+12342385184" id="hel">
-                    <span class="sr-only">Call +1 234 238 5184</span>
-                </a>
-            </li>
-        </ul>
-        <ul class="copyright ">
-            <li>&copy; Sai Teja</li>
-        </ul>
-    </footer>
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js "></script>
-    <script src="assets/js/jquery.scrollex.min.js "></script>
-    <script src="assets/js/jquery.scrolly.min.js "></script>
-    <script src="assets/js/browser.min.js "></script>
-    <script src="assets/js/breakpoints.min.js "></script>
-    <script src="assets/js/util.js "></script>
-    <script src="assets/js/main.js "></script>
-    <script src="assets/js/tabswitch.js "></script>
-    <!-- rotation role code -->
-    <script>
-        const roles = ["Full Stack Developer", "UI/UX Developer", "CMS Specialist"];
-        let index = 0;
-        const roleElement = document.getElementById("role");
-        setInterval(() => {
-            // Fade out and remove glow
-            roleElement.style.opacity = 0;
-            roleElement.style.textShadow = 'none';
-
-            setTimeout(() => {
-                // Update text and add glowing text-shadow
-                index = (index + 1) % roles.length;
-                roleElement.textContent = roles[index];
-                roleElement.style.opacity = 1;
-                roleElement.style.textShadow = '0 0 8px rgba(37, 99, 235, 0.6), 0 0 12px rgba(37, 99, 235, 0.4)';
-            }, 300);
-
-            // Remove the glow after some time
-            setTimeout(() => {
-                roleElement.style.textShadow = 'none';
-            }, 1000);
-        }, 2500);
-    </script>
-    <!-- carousel control bootstrap -->
-    <script>
-        let ci = 0;
-        let autoSlideInterval;
-
-        // Function to show the current slide
-        function showSlide(index) {
-            const slides = document.querySelectorAll('.carousel-item');
-            const totalSlides = slides.length;
-
-            // Prevent index overflow
-            if (index >= totalSlides) {
-                ci = 0;
-            } else if (index < 0) {
-                ci = totalSlides - 1;
-            } else {
-                ci = index;
+        <style>
+            /* ===== EXPERIENCE SECTION - FIXED ALIGNMENT ===== */
+            #three {
+                background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+                position: relative;
+                overflow: hidden;
+                padding: 60px 0;
             }
 
-            const carouselItems = document.querySelector('.carousel-items');
-            carouselItems.style.transform = `translateX(-${ci * 100}%)`;
-        }
+            /* Container - Fixed padding */
+            .exp-scroll-container {
+                position: relative;
+                width: 100%;
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 20px 80px;
+            }
 
-        // Function to navigate to the previous slide
-        function prevSlide() {
-            showSlide(ci - 1);
-            resetAutoSlide(10000); // Reset auto-slide timer to 10 seconds
-        }
+            /* Horizontal Track - Fixed scrollbar alignment */
+            .exp-track {
+                display: flex;
+                gap: 30px;
+                overflow-x: auto;
+                scroll-behavior: smooth;
+                padding: 20px 5px 30px;
+                scrollbar-width: thin;
+                scrollbar-color: #49a6e9 rgba(73, 166, 233, 0.1);
+                -ms-overflow-style: auto;
+                margin: 0 -5px;
+            }
 
-        // Function to navigate to the next slide
-        function nextSlide() {
-            showSlide(ci + 1);
-            resetAutoSlide(10000); // Reset auto-slide timer to 10 seconds
-        }
+            /* Custom scrollbar styling */
+            .exp-track::-webkit-scrollbar {
+                height: 6px;
+                display: block;
+            }
 
-        // Function to reset the auto-slide timer
-        function resetAutoSlide(delay = 5000) {
-            clearInterval(autoSlideInterval); // Clear the current interval
-            autoSlideInterval = setInterval(nextSlide, delay); // Set a new interval with the given delay
-        }
+            .exp-track::-webkit-scrollbar-track {
+                background: rgba(73, 166, 233, 0.1);
+                border-radius: 10px;
+                margin: 0 20px;
+            }
 
-        // Initial load
-        showSlide(ci);
+            .exp-track::-webkit-scrollbar-thumb {
+                background: #49a6e9;
+                border-radius: 10px;
+                transition: all 0.3s ease;
+            }
 
-        // Start the auto-slide timer (default interval of 5 seconds)
-        autoSlideInterval = setInterval(nextSlide, 3000);
-    </script>
+            .exp-track::-webkit-scrollbar-thumb:hover {
+                background: #6b5cf6;
+            }
+
+            /* Experience Cards */
+            .exp-card {
+                flex: 0 0 380px;
+                background: rgba(22, 33, 62, 0.8);
+                backdrop-filter: blur(10px);
+                border: 1px solid rgba(73, 166, 233, 0.15);
+                border-radius: 24px;
+                padding: 28px;
+                display: flex;
+                gap: 18px;
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                position: relative;
+                overflow: visible;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
+
+            .exp-card::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 4px;
+                height: 0;
+                background: linear-gradient(180deg, #49a6e9, #8b5cf6);
+                transition: height 0.3s ease;
+                border-radius: 4px 0 0 4px;
+            }
+
+            .exp-card:hover {
+                background: rgba(32, 45, 74, 0.9);
+                border-color: rgba(73, 166, 233, 0.4);
+                transform: translateY(-5px);
+                box-shadow: 0 20px 40px rgba(73, 166, 233, 0.15);
+            }
+
+            .exp-card:hover::after {
+                height: 100%;
+            }
+
+            /* Icon */
+            .exp-icon {
+                flex-shrink: 0;
+                width: 52px;
+                height: 52px;
+                background: rgba(73, 166, 233, 0.12);
+                border-radius: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #49a6e9;
+                font-size: 1.6rem;
+                transition: all 0.3s ease;
+            }
+
+            .exp-card:hover .exp-icon {
+                background: #49a6e9;
+                color: white;
+                transform: scale(1.1);
+                box-shadow: 0 10px 20px rgba(73, 166, 233, 0.3);
+            }
+
+            /* Content */
+            .exp-content {
+                flex: 1;
+                min-width: 0;
+            }
+
+            .exp-header {
+                margin-bottom: 12px;
+            }
+
+            .exp-header h3 {
+                color: white;
+                font-size: 1.25rem;
+                font-weight: 700;
+                margin: 0 0 4px 0;
+                line-height: 1.2;
+                letter-spacing: -0.01em;
+            }
+
+            .exp-collab {
+                display: inline-block;
+                color: rgba(255, 255, 255, 0.6);
+                font-size: 0.7rem;
+                background: rgba(73, 166, 233, 0.1);
+                padding: 3px 10px;
+                border-radius: 20px;
+                margin-top: 4px;
+            }
+
+            .exp-meta {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                margin-bottom: 18px;
+                padding-bottom: 16px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .exp-position {
+                color: #49a6e9;
+                font-size: 0.9rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+
+            .exp-date {
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                color: rgba(255, 255, 255, 0.8);
+                font-size: 0.8rem;
+                font-weight: 500;
+                background: rgba(0, 0, 0, 0.25);
+                padding: 5px 12px;
+                border-radius: 30px;
+                width: fit-content;
+                border: 1px solid rgba(255, 255, 255, 0.05);
+            }
+
+            .exp-date i {
+                color: #49a6e9;
+                font-size: 0.75rem;
+            }
+
+            /* Interactive Skill Boxes */
+            .exp-skills {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+                margin-top: 5px;
+            }
+
+            .skill-item {
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                padding: 6px 14px;
+                background: rgba(73, 166, 233, 0.08);
+                border: 1px solid rgba(73, 166, 233, 0.2);
+                border-radius: 30px;
+                color: rgba(255, 255, 255, 0.95);
+                font-size: 0.75rem;
+                font-weight: 500;
+                transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+                cursor: pointer;
+                white-space: nowrap;
+            }
+
+            .skill-item i {
+                font-size: 0.8rem;
+                color: #49a6e9;
+                transition: all 0.2s ease;
+            }
+
+            .skill-item:hover {
+                background: #49a6e9;
+                border-color: #49a6e9;
+                transform: translateY(-2px);
+                box-shadow: 0 6px 14px rgba(73, 166, 233, 0.25);
+                color: white;
+            }
+
+            .skill-item:hover i {
+                color: white;
+            }
+
+            /* Larger Minimalist Arrows */
+            .exp-arrow {
+                position: absolute;
+                top: 45%;
+                transform: translateY(-50%);
+                width: 54px;
+                height: 54px;
+                border-radius: 50%;
+                background: rgba(22, 33, 62, 0.9);
+                border: 2px solid rgba(73, 166, 233, 0.4);
+                color: rgba(255, 255, 255, 0.9);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: all 0.2s ease;
+                z-index: 20;
+                padding: 0;
+                backdrop-filter: blur(4px);
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            }
+
+            .exp-arrow:hover {
+                background: rgba(73, 166, 233, 0.2);
+                border-color: #49a6e9;
+                color: #49a6e9;
+                transform: translateY(-50%) scale(1.1);
+                box-shadow: 0 8px 25px rgba(73, 166, 233, 0.3);
+            }
+
+            .exp-arrow-left {
+                left: 10px;
+            }
+
+            .exp-arrow-right {
+                right: 10px;
+            }
+
+            .exp-arrow svg {
+                width: 28px;
+                height: 28px;
+            }
+
+            /* Minimal Dots - Properly aligned */
+            .exp-dots {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                margin-top: 25px;
+                padding-bottom: 10px;
+            }
+
+            .exp-dot {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: rgba(255, 255, 255, 0.25);
+                transition: all 0.3s ease;
+                cursor: pointer;
+            }
+
+            .exp-dot.active {
+                width: 32px;
+                border-radius: 6px;
+                background: #49a6e9;
+                box-shadow: 0 0 15px rgba(73, 166, 233, 0.5);
+            }
+
+            .exp-dot:hover {
+                background: #49a6e9;
+                transform: scale(1.2);
+            }
+
+            /* Tablet Styles */
+            @media (max-width: 992px) {
+                .exp-scroll-container {
+                    padding: 20px 70px;
+                }
+
+                .exp-card {
+                    flex: 0 0 360px;
+                }
+
+                .exp-arrow {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+
+            /* Mobile Styles - Fixed centering */
+            @media (max-width: 768px) {
+                .exp-scroll-container {
+                    padding: 20px 50px;
+                }
+
+                .exp-track {
+                    gap: 20px;
+                    padding: 15px 5px 25px;
+                    scroll-snap-type: x mandatory;
+                }
+
+                .exp-card {
+                    flex: 0 0 calc(100vw - 120px);
+                    max-width: 340px;
+                    padding: 22px;
+                    gap: 14px;
+                    scroll-snap-align: center;
+                }
+
+                .exp-icon {
+                    width: 44px;
+                    height: 44px;
+                    font-size: 1.3rem;
+                    border-radius: 14px;
+                }
+
+                .exp-header h3 {
+                    font-size: 1.1rem;
+                }
+
+                .exp-position {
+                    font-size: 0.8rem;
+                }
+
+                .skill-item {
+                    padding: 5px 12px;
+                    font-size: 0.7rem;
+                }
+
+                .exp-arrow {
+                    width: 48px;
+                    height: 48px;
+                }
+
+                .exp-arrow-left {
+                    left: 5px;
+                }
+
+                .exp-arrow-right {
+                    right: 5px;
+                }
+
+                .exp-track::-webkit-scrollbar-track {
+                    margin: 0 10px;
+                }
+            }
+
+            /* Small Mobile Styles */
+            @media (max-width: 480px) {
+                .exp-scroll-container {
+                    padding: 20px 40px;
+                }
+
+                .exp-card {
+                    flex: 0 0 calc(100vw - 100px);
+                    min-width: 260px;
+                    padding: 20px;
+                }
+
+                .exp-icon {
+                    width: 40px;
+                    height: 40px;
+                    font-size: 1.1rem;
+                }
+
+                .exp-meta {
+                    gap: 6px;
+                }
+
+                .exp-date {
+                    font-size: 0.7rem;
+                    padding: 4px 10px;
+                }
+
+                .skill-item {
+                    padding: 4px 10px;
+                    font-size: 0.65rem;
+                }
+
+                .exp-arrow {
+                    width: 44px;
+                    height: 44px;
+                }
+
+                .exp-arrow svg {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                .exp-dots {
+                    gap: 8px;
+                }
+
+                .exp-dot.active {
+                    width: 28px;
+                }
+            }
+
+            /* Fix for very small devices */
+            @media (max-width: 360px) {
+                .exp-card {
+                    flex: 0 0 calc(100vw - 80px);
+                    min-width: 240px;
+                }
+
+                .exp-scroll-container {
+                    padding: 20px 35px;
+                }
+            }
+        </style>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const track = document.getElementById('expTrack');
+                const prevBtn = document.getElementById('expPrevBtn');
+                const nextBtn = document.getElementById('expNextBtn');
+                const dots = document.querySelectorAll('.exp-dot');
+
+                // Dynamic card width calculation based on viewport
+                function getCardWidth() {
+                    if (window.innerWidth <= 480) {
+                        return window.innerWidth - 100; // Small mobile
+                    } else if (window.innerWidth <= 768) {
+                        return window.innerWidth - 120; // Mobile
+                    } else if (window.innerWidth <= 992) {
+                        return 390; // Tablet (360 + 30 gap)
+                    } else {
+                        return 410; // Desktop (380 + 30 gap)
+                    }
+                }
+
+                let currentIndex = 0;
+                const maxIndex = dots.length - 1;
+
+                // Scroll to card function with circular navigation
+                function scrollToCard(index, isCircular = true) {
+                    let newIndex = index;
+
+                    // Handle circular navigation for buttons and keyboard
+                    if (isCircular) {
+                        if (index < 0) {
+                            newIndex = maxIndex; // Go to last card when clicking previous on first
+                        } else if (index > maxIndex) {
+                            newIndex = 0; // Go to first card when clicking next on last
+                        }
+                    } else {
+                        // Clamp to bounds if not circular (for dots)
+                        if (index < 0) newIndex = 0;
+                        if (index > maxIndex) newIndex = maxIndex;
+                    }
+
+                    const cardWidth = getCardWidth();
+
+                    track.scrollTo({
+                        left: newIndex * (cardWidth + 30), // Add gap
+                        behavior: 'smooth'
+                    });
+
+                    // Update dots
+                    dots.forEach((dot, i) => {
+                        if (i === newIndex) {
+                            dot.classList.add('active');
+                        } else {
+                            dot.classList.remove('active');
+                        }
+                    });
+
+                    currentIndex = newIndex;
+                }
+
+                // Previous button - with circular navigation
+                if (prevBtn) {
+                    prevBtn.addEventListener('click', function () {
+                        scrollToCard(currentIndex - 1, true);
+                    });
+                }
+
+                // Next button - with circular navigation
+                if (nextBtn) {
+                    nextBtn.addEventListener('click', function () {
+                        scrollToCard(currentIndex + 1, true);
+                    });
+                }
+
+                // Dot click - linear navigation (no wrap)
+                dots.forEach((dot, index) => {
+                    dot.addEventListener('click', function () {
+                        scrollToCard(index, false);
+                    });
+                });
+
+                // Update dots on scroll with debouncing
+                let scrollTimeout;
+                track.addEventListener('scroll', function () {
+                    clearTimeout(scrollTimeout);
+                    scrollTimeout = setTimeout(() => {
+                        const cardWidth = getCardWidth() + 30; // Include gap
+                        const scrollPosition = track.scrollLeft;
+                        const index = Math.round(scrollPosition / cardWidth);
+
+                        // Ensure index is within bounds
+                        let newIndex = index;
+                        if (newIndex < 0) newIndex = 0;
+                        if (newIndex > maxIndex) newIndex = maxIndex;
+
+                        if (newIndex !== currentIndex) {
+                            currentIndex = newIndex;
+                            dots.forEach((dot, i) => {
+                                if (i === newIndex) {
+                                    dot.classList.add('active');
+                                } else {
+                                    dot.classList.remove('active');
+                                }
+                            });
+                        }
+                    }, 50);
+                });
+
+                // Recalculate on window resize
+                window.addEventListener('resize', function () {
+                    // Maintain current index position
+                    scrollToCard(currentIndex, false);
+                });
+
+                // Keyboard navigation - with circular navigation
+                document.addEventListener('keydown', function (e) {
+                    // Check if we're in the experience section
+                    const threeSection = document.getElementById('three');
+                    const rect = threeSection.getBoundingClientRect();
+                    const isInView = rect.top < window.innerHeight && rect.bottom > 0;
+
+                    if (isInView) {
+                        if (e.key === 'ArrowLeft') {
+                            e.preventDefault();
+                            scrollToCard(currentIndex - 1, true);
+                        } else if (e.key === 'ArrowRight') {
+                            e.preventDefault();
+                            scrollToCard(currentIndex + 1, true);
+                        }
+                    }
+                });
+
+                // Initialize first card
+                scrollToCard(0, false);
+            });
+        </script>
+        <!-- Two -->
+        <section id="two" class="wrapper alt style2 ">
+            <section class="spotlight ">
+                <div class="image frame image-container"><a href="https://github.com/saiteja0704/Ideabook">
+                        <img src="images/Ideabook_home.png " class="image" alt=" Idea Book Image thumbnail" /></a></div>
+                <div class="content ">
+                    <h2>
+                        <a href="https://github.com/saiteja0704/Ideabook">Idea Book</a>
+                    </h2>
+                    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Ideabook
+                        is a
+                        dynamic platform designed to facilitate the exchange and collaboration of innovative ideas
+                        between
+                        students and faculty. Inspired by the simplicity of social media posts, it creates an
+                        interactive
+                        space where ideas can be
+                        shared, discussed, and transformed into actionable projects.</p>
+                </div>
+            </section>
+            <section class="spotlight ">
+                <div class="image frame image-container">
+                    <a href="https://github.com/saiteja0704/Spyro">
+                        <img src="images/spyro.jpg " alt="Spyro Project Screenshot" class="image" />
+                        <span class="sr-only">View Spyro project on GitHub</span>
+                    </a>
+                </div>
+                <div class="content ">
+                    <h2>
+                        <a href="https://github.com/saiteja0704/Spyro">Spyro</a>
+                    </h2>
+                    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">A customer
+                        care chatbot developed to manage inquiries about store locations and appointment scheduling with
+                        ease. Powered by Watson Discovery, it incorporates advanced document understanding and leverages
+                        cloud functions to intelligently
+                        address queries that extend beyond the chatbot's standard capabilities</p>
+                </div>
+            </section>
+            <section class="spotlight ">
+                <div class="image frame image-container">
+                    <a href="https://github.com/saiteja0704/No-due-Digitalization"><img src="images/mini.png "
+                            alt=" No due Digitalization Project Screenshot" class="image" /></a>
+                </div>
+                <div class="content ">
+                    <h2>
+                        <a href="https://github.com/saiteja0704/No-due-Digitalization">No-Due Digitalization</a>
+                    </h2>
+                    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">A web
+                        application that transforms the traditionally time-consuming process of issuing No Due slips at
+                        our
+                        college. By seamlessly integrating student and faculty portals, it optimizes and accelerates the
+                        workflow, offering a more efficient
+                        and user-friendly solution.</p>
+                </div>
+            </section>
+            <section class="spotlight ">
+                <div class="image frame image-container"><a href="https://match-letter.netlify.app/">
+                        <img src="images/react.jpg " alt="Match Letter Project Screenshot" class="image" /></a></div>
+                <div class="content ">
+                    <h2>
+                        <a href="https://match-letter.netlify.app/">Bored?? Wanna try a small memory game?</a>
+                    </h2>
+                    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">During my
+                        expedition to master the React framework and its variants like TypeScript and JavaScript, I
+                        created
+                        a simple memory game where players are presented with a grid of random face-down cards, and the
+                        goal
+                        is to flip them over and find the first matching pair.</p>
+                </div>
+            </section>
+
+            <section class="spotlight ai-bg">
+                <div style="padding-left: 3%;">
+                    <h3>AL-ML <br> Projects</h3>
+                </div>
+                <div class="carousel  ">
+                    <div class="carousel-items">
+                        <!-- Carousel Item 1 -->
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <h5>Image Classification and Segmentation</h5>
+                                <p>Technologies: Python, OpenCV, Seaborn, Matplotlib, TensorFlow, Keras, PyTorch</p>
+                                <ul>
+                                    <li>&bull; Devised deep learning models for image classification and segmentation
+                                        using
+                                        Chest X-Ray and Kvasir-Segmentation datasets, significantly improving pneumonia
+                                        detection accuracy.</li>
+                                    <li>&bull; Utilized CNNs and segmentation algorithms, achieving an IoU score of
+                                        0.9130
+                                        and a Dice Index score of 0.1277 for gastrointestinal tract image segmentation.
+                                    </li>
+                                </ul>
+                                <a href="https://github.com/saiteja0704/Image-Classification-and-Segmentation"
+                                    class="btn btn-primary">View on GitHub</a>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 2 -->
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <h5>Communication through Gestures</h5>
+                                <p>Technologies: Python, TensorFlow, CNN, ReLU, Softmax, Adam Optimizer, Max Pooling</p>
+                                <ul>
+                                    <li>&bull; Developed and implemented a convolutional neural network (CNN) for
+                                        real-time
+                                        image classification of human gestures, achieving an overall accuracy of 85.86%.
+                                    </li>
+                                    <li>&bull; Enhanced applications in sign language recognition and human-robot
+                                        interaction with precision, recall, and F1 scores of 0.867, 0.859, and 0.855
+                                        respectively.</li>
+                                </ul>
+                                <a href="https://github.com/saiteja0704/Communication-through-gestures2"
+                                    class="btn btn-primary">View on GitHub</a>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 3 -->
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <h5>Third Eye</h5>
+                                <p>Technologies: Python, Pytesseract, RPA, OpenCV, Pillow, TensorFlow, PyTorch, YOLO,
+                                    Keras
+                                </p>
+                                <ul>
+                                    <li>&bull; Executed an RPA-driven image processing solution using live traffic
+                                        camera
+                                        feeds to identify individuals not wearing helmets.</li>
+                                    <li>&bull; Trained the model on a diverse dataset of over 600 riders, achieving an
+                                        accuracy of 75% in identifying non-compliant individuals.</li>
+                                </ul>
+                                <a href="https://github.com/saiteja0704/Third-Eye" class="btn btn-primary">View on
+                                    GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel Controls -->
+                    <div class="carousel-btns">
+                        <div class="carousel-btn prev" onclick="prevSlide()">&#10094;</div>
+                        <div class="carousel-btn next" onclick="nextSlide()">&#10095;</div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li>
+                    <a href="Resume/Resume.pdf" class="fas fa-file icon tooltip" data-info="Download Resume" id="hel">
+                        <span class="sr-only">Download Resume (PDF)</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/saiteja0704 " class="icon brands fa-github tooltip "
+                        data-info="saiteja0704" id="hel"><span class="sr-only">GitHub Profile</span></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/saiteja0407/ " class="icon brands fa-linkedin tooltip"
+                        data-info="saiteja0407" id="hel"><span class="sr-only">LinkedIn Profile</span></a>
+                </li>
+                <li>
+                    <a href="mailto:saiteja0704@gmail.com " class="icon fa-envelope tooltip"
+                        data-info="saiteja0704@gmail.com" id="hel"><span class="sr-only">Email:
+                            saiteja0704@gmail.com</span></a>
+                </li>
+                <li>
+                    <!-- <a href="tel:+12342385184" class="tooltip" data-info="+12342385184" id="hel" style="display: inline-block; width: 24px; height: 24px; background-image: url('images/phone.png'); background-size: cover;"></a> -->
+                    <a href="tel:+12342385184" class="bi bi-telephone icon tooltip" data-info="+12342385184" id="hel">
+                        <span class="sr-only">Call +1 234 238 5184</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="copyright ">
+                <li>&copy; Sai Teja</li>
+            </ul>
+        </footer>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js "></script>
+        <script src="assets/js/jquery.scrollex.min.js "></script>
+        <script src="assets/js/jquery.scrolly.min.js "></script>
+        <script src="assets/js/browser.min.js "></script>
+        <script src="assets/js/breakpoints.min.js "></script>
+        <script src="assets/js/util.js "></script>
+        <script src="assets/js/main.js "></script>
+        <script src="assets/js/tabswitch.js "></script>
+        <!-- rotation role code -->
+        <script>
+            const roles = ["Full Stack Developer", "UI/UX Developer", "CMS Specialist"];
+            let index = 0;
+            const roleElement = document.getElementById("role");
+            setInterval(() => {
+                // Fade out and remove glow
+                roleElement.style.opacity = 0;
+                roleElement.style.textShadow = 'none';
+
+                setTimeout(() => {
+                    // Update text and add glowing text-shadow
+                    index = (index + 1) % roles.length;
+                    roleElement.textContent = roles[index];
+                    roleElement.style.opacity = 1;
+                    roleElement.style.textShadow = '0 0 8px rgba(37, 99, 235, 0.6), 0 0 12px rgba(37, 99, 235, 0.4)';
+                }, 300);
+
+                // Remove the glow after some time
+                setTimeout(() => {
+                    roleElement.style.textShadow = 'none';
+                }, 1000);
+            }, 2500);
+        </script>
+        <!-- carousel control bootstrap -->
+        <script>
+            let ci = 0;
+            let autoSlideInterval;
+
+            // Function to show the current slide
+            function showSlide(index) {
+                const slides = document.querySelectorAll('.carousel-item');
+                const totalSlides = slides.length;
+
+                // Prevent index overflow
+                if (index >= totalSlides) {
+                    ci = 0;
+                } else if (index < 0) {
+                    ci = totalSlides - 1;
+                } else {
+                    ci = index;
+                }
+
+                const carouselItems = document.querySelector('.carousel-items');
+                carouselItems.style.transform = `translateX(-${ci * 100}%)`;
+            }
+
+            // Function to navigate to the previous slide
+            function prevSlide() {
+                showSlide(ci - 1);
+                resetAutoSlide(10000); // Reset auto-slide timer to 10 seconds
+            }
+
+            // Function to navigate to the next slide
+            function nextSlide() {
+                showSlide(ci + 1);
+                resetAutoSlide(10000); // Reset auto-slide timer to 10 seconds
+            }
+
+            // Function to reset the auto-slide timer
+            function resetAutoSlide(delay = 5000) {
+                clearInterval(autoSlideInterval); // Clear the current interval
+                autoSlideInterval = setInterval(nextSlide, delay); // Set a new interval with the given delay
+            }
+
+            // Initial load
+            showSlide(ci);
+
+            // Start the auto-slide timer (default interval of 5 seconds)
+            autoSlideInterval = setInterval(nextSlide, 3000);
+        </script>
 
 </body>
 
