@@ -846,6 +846,7 @@
 
             .gradient-text {
                 background: linear-gradient(135deg, #fff 0%, #49a6e9 100%);
+                background-clip: text;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 position: relative;
@@ -1755,7 +1756,9 @@
                     scrollToCard(currentIndex);
                 });
             });
-        </script> <!-- Work Experience -->
+        </script>
+        <!-- Work Experience -->
+        <!-- Work Experience -->
         <section id="three" class="wrapper style3 special">
             <div class="inner">
                 <header class="major">
@@ -1996,19 +1999,13 @@
                         </div>
                     </div>
 
-                    <!-- Larger Minimalist Arrow Controls -->
-                    <button class="exp-arrow exp-arrow-left" id="expPrevBtn" aria-label="Previous experience">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
+                    <!-- Chevron Navigation - Removed circular background -->
+                    <button class="exp-chevron exp-chevron-left" id="expPrevBtn" aria-label="Previous experience">
+                        <i class="fas fa-chevron-left"></i>
                     </button>
 
-                    <button class="exp-arrow exp-arrow-right" id="expNextBtn" aria-label="Next experience">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
+                    <button class="exp-chevron exp-chevron-right" id="expNextBtn" aria-label="Next experience">
+                        <i class="fas fa-chevron-right"></i>
                     </button>
 
                     <!-- Minimal Indicators -->
@@ -2271,47 +2268,40 @@
                 color: white;
             }
 
-            /* Larger Minimalist Arrows */
-            .exp-arrow {
+            /* Chevron Navigation - No background, just icons */
+            .exp-chevron {
                 position: absolute;
                 top: 45%;
                 transform: translateY(-50%);
-                width: 54px;
-                height: 54px;
-                border-radius: 50%;
-                background: rgba(22, 33, 62, 0.9);
-                border: 2px solid rgba(73, 166, 233, 0.4);
-                color: rgba(255, 255, 255, 0.9);
+                background: transparent;
+                border: none;
+                color: rgba(255, 255, 255, 0.5);
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 cursor: pointer;
-                transition: all 0.2s ease;
+                transition: all 0.3s ease;
                 z-index: 20;
-                padding: 0;
-                backdrop-filter: blur(4px);
-                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+                padding: 15px;
+                font-size: 2.5rem;
             }
 
-            .exp-arrow:hover {
-                background: rgba(73, 166, 233, 0.2);
-                border-color: #49a6e9;
+            .exp-chevron:hover {
                 color: #49a6e9;
-                transform: translateY(-50%) scale(1.1);
-                box-shadow: 0 8px 25px rgba(73, 166, 233, 0.3);
+                transform: translateY(-50%) scale(1.2);
+                text-shadow: 0 0 20px rgba(73, 166, 233, 0.5);
             }
 
-            .exp-arrow-left {
-                left: 10px;
+            .exp-chevron:focus {
+                outline: none;
             }
 
-            .exp-arrow-right {
-                right: 10px;
+            .exp-chevron-left {
+                left: 0;
             }
 
-            .exp-arrow svg {
-                width: 28px;
-                height: 28px;
+            .exp-chevron-right {
+                right: 0;
             }
 
             /* Minimal Dots - Properly aligned */
@@ -2350,37 +2340,29 @@
                 color: #041E42 !important;
             }
 
-            /* Georgia Southern Blue */
             .brightmind-icon {
                 color: #FF6B35 !important;
             }
 
-            /* Bright orange */
             .intercultural-icon {
                 color: #4ECDC4 !important;
             }
 
-            /* Turquoise */
             .kent-icon {
                 color: #FFD700 !important;
             }
 
-            /* Gold */
             .darkhorse-icon {
                 color: #2C3E50 !important;
             }
 
-            /* Dark blue-gray */
             .dxc-icon {
                 color: #E95459 !important;
             }
 
-            /* DXC red */
             .jpmorgan-icon {
                 color: #0077B6 !important;
             }
-
-            /* JP Morgan blue */
 
             /* Technology Icons - Reusing from skills section */
             .wordpress-icon {
@@ -2525,9 +2507,9 @@
                     flex: 0 0 360px;
                 }
 
-                .exp-arrow {
-                    width: 50px;
-                    height: 50px;
+                .exp-chevron {
+                    font-size: 2.2rem;
+                    padding: 12px;
                 }
             }
 
@@ -2569,16 +2551,16 @@
                     font-size: 0.7rem;
                 }
 
-                .exp-arrow {
-                    width: 48px;
-                    height: 48px;
+                .exp-chevron {
+                    font-size: 2rem;
+                    padding: 10px;
                 }
 
-                .exp-arrow-left {
+                .exp-chevron-left {
                     left: 5px;
                 }
 
-                .exp-arrow-right {
+                .exp-chevron-right {
                     right: 5px;
                 }
 
@@ -2619,14 +2601,9 @@
                     font-size: 0.65rem;
                 }
 
-                .exp-arrow {
-                    width: 44px;
-                    height: 44px;
-                }
-
-                .exp-arrow svg {
-                    width: 24px;
-                    height: 24px;
+                .exp-chevron {
+                    font-size: 1.8rem;
+                    padding: 8px;
                 }
 
                 .exp-dots {
@@ -2647,6 +2624,11 @@
 
                 .exp-scroll-container {
                     padding: 20px 35px;
+                }
+
+                .exp-chevron {
+                    font-size: 1.6rem;
+                    padding: 6px;
                 }
             }
         </style>
